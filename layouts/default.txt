@@ -17,7 +17,7 @@ filter:    haml
     %link{:rel => 'stylesheet', :href => '/css/site.css', :type => 'text/css', :media => 'screen, projection'}
 
   %body
-    .container.showgrid
+    .container
 
       = render :partial => '/partials/header'
 
@@ -25,7 +25,7 @@ filter:    haml
 
       = render :partial => '/partials/side-navigator'
 
-      .column.span-16.append1.last#content
+      .column.span-17.append1.last#content
         = @content
 
       = render :partial => '/partials/footer'

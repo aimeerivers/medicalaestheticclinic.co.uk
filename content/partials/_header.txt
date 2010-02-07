@@ -7,6 +7,6 @@ filter: haml
     &nbsp;
   .span-16
     %p.address 33 Southgate Street, Winchester, SO23 9EH
-  .span-4.last
+  .span-3.append-1.last
     %p.phone 01962 840400
   %hr/

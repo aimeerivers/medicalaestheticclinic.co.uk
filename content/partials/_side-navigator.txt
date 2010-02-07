@@ -1,7 +1,7 @@
 ---
 filter: haml
 ---
-.column.span-6.prepend-1.first#side_navigator
+.column.span-5.prepend-1.first#side_navigator
   %h3 Treatments
   %ul
     %li Intense Pulsed Light for:
