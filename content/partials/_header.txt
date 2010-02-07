@@ -1,0 +1,12 @@
+---
+filter: haml
+---
+.column.span-24#header
+  %p.title The Medical Aesthetic Clinic
+  .span-4
+    &nbsp;
+  .span-16
+    %p.address 33 Southgate Street, Winchester, SO23 9EH
+  .span-4.last
+    %p.phone 01962 840400
+  %hr/

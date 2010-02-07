@@ -1,0 +1,8 @@
+---
+filter: haml
+---
+.column.span-24.first.last#footer
+  %hr/
+  %p
+    This website was created with
+    %a{:href => 'http://webby.rubyforge.org'} Webby

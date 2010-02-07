@@ -1,0 +1,18 @@
+---
+filter: haml
+---
+.column.span-24#top_navigator
+  %ul
+    %li
+      %a{:href => '/'} Home
+    %li
+      %a{:href => '/'} Treatments
+    %li
+      %a{:href => '/'} Products
+    %li
+      %a{:href => '/'} About Us
+    %li
+      %a{:href => '/'} Links
+    %li
+      %a{:href => '/'} Contact
+  %hr/

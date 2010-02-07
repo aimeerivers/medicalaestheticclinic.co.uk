@@ -75,6 +75,9 @@ p.title {
 #top_navigator ul { list-style-type: none; }
 #top_navigator ul li { display: inline; padding: 0 .5em; }
 
+#side_navigator ul { list-style-type: none; }
+#side_navigator ul { margin-left: 0; }
+
 #footer p { text-align: center; }
 
 /* EOF */

@@ -18,49 +18,14 @@ filter:    haml
 
   %body
     .container.showgrid
-      .column.span-24#header
-        %p.title The Medical Aesthetic Clinic
-        .span-4
-          &nbsp;
-        .span-16
-          %p.address 33 Southgate Street, Winchester, SO23 9EH
-        .span-4.last
-          %p.phone 01962 840400
-        %hr/
 
-      .column.span-24#top_navigator
-        %ul
-          %li
-            %a{:href => '/'} Home
-          %li
-            %a{:href => '/'} Treatments
-          %li
-            %a{:href => '/'} Products
-          %li
-            %a{:href => '/'} About Us
-          %li
-            %a{:href => '/'} Links
-          %li
-            %a{:href => '/'} Contact
-        %hr/
+      = render :partial => '/partials/header'
 
-      .column.span-15.prepend-2.first
+      = render :partial => '/partials/top-navigator'
+
+      = render :partial => '/partials/side-navigator'
+
+      .column.span-16.append1.last#content
         = @content
 
-      .column.span-5.append-2.last
-        %h4 Sidebar
-        %p Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.
-
-        .box
-          %p.last Mauris a lectus. Aliquam erat volutpat. Phasellus ultrices mi a sapien. Nunc rutrum egestas lorem. Duis ac sem sagittis elit tincidunt gravida.
-
-        %p.quiet Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue.
-
-        %h5 Incremental leading
-        %p.incr Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue. sed aliquet vehicula, lectus tellus.
-
-      .column.span-24.first.last#footer
-        %hr/
-        %p
-          This website was created with
-          %a{:href => 'http://webby.rubyforge.org'} Webby
+      = render :partial => '/partials/footer'
