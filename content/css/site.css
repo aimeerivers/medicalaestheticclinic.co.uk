@@ -62,6 +62,19 @@ p.title {
   margin-bottom: 0.75em;
 }
 
-#header p.title { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+#header p.title {
+  font-size: 3em;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+#header p.phone { float: right; }
+#header p.address { text-align: center; }
+
+#top_navigator { text-align: center; }
+#top_navigator ul { list-style-type: none; }
+#top_navigator ul li { display: inline; padding: 0 .5em; }
+
+#footer p { text-align: center; }
 
 /* EOF */

@@ -17,9 +17,31 @@ filter:    haml
     %link{:rel => 'stylesheet', :href => '/css/site.css', :type => 'text/css', :media => 'screen, projection'}
 
   %body
-    .container
-      .column.span-20.prepend-2.append-2.first.last#header
-        %p.title A New Website
+    .container.showgrid
+      .column.span-24#header
+        %p.title The Medical Aesthetic Clinic
+        .span-4
+          &nbsp;
+        .span-16
+          %p.address 33 Southgate Street, Winchester, SO23 9EH
+        .span-4.last
+          %p.phone 01962 840400
+        %hr/
+
+      .column.span-24#top_navigator
+        %ul
+          %li
+            %a{:href => '/'} Home
+          %li
+            %a{:href => '/'} Treatments
+          %li
+            %a{:href => '/'} Products
+          %li
+            %a{:href => '/'} About Us
+          %li
+            %a{:href => '/'} Links
+          %li
+            %a{:href => '/'} Contact
         %hr/
 
       .column.span-15.prepend-2.first
@@ -37,7 +59,7 @@ filter:    haml
         %h5 Incremental leading
         %p.incr Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras ornare mattis nunc. Mauris venenatis, pede sed aliquet vehicula, lectus tellus pulvinar neque, non cursus sem nisi vel augue. sed aliquet vehicula, lectus tellus.
 
-      .column.span-20.prepend-2.append-2.first.last#footer
+      .column.span-24.first.last#footer
         %hr/
         %p
           This website was created with
