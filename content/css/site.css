@@ -80,4 +80,17 @@ p.title {
 
 #footer p { text-align: center; }
 
+p.emphasis { font-size: 1.1em; }
+
+.box {
+  border: 1px solid #B2CCFF;
+  padding: 0.5em;
+}
+
+.box h3 { font-size: 1.2em; margin-bottom: 0.5em; }
+
+.box p { margin-bottom: 2px; }
+
+.box p.link { text-align: right; }
+
 /* EOF */
