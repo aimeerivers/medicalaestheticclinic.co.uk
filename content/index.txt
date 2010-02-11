@@ -7,17 +7,17 @@ filter: haml
 
 .column.span-11
   .column.span-4
-    %p picture
+    %img{:src => '/images/cathy.jpg', :alt => 'Cathy Wallwork'}
   .column.span-7.last
     %p.emphasis We are a nurse led clinic specialising in medical aesthetics. At the forefront of advanced beauty, offering an affordable range of some of the most sophisticated non-surgical, anti-aging products and treatments available in the market today.
 
   .column.span-4
-    %p picture
+    %img{:src => '/images/clinic.jpg', :alt => 'The Clinic'}
   .column.span-7.last
     %p.emphasis We are situated near the centre of Winchester, on Southgate Street, close to the Hotel Du Vin and The Scren cinema. Contact us on 01962 840400 or reception@medicalaestheticclinic.co.uk
 
   .column.span-4
-    %p picture
+    %img{:src => '/images/testimonial.jpg', :alt => 'Testimonial'}
   .column.span-7.last
     %p.emphasis
       Testimonial

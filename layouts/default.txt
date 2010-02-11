@@ -17,7 +17,7 @@ filter:    haml
     %link{:rel => 'stylesheet', :href => '/css/site.css', :type => 'text/css', :media => 'screen, projection'}
 
   %body
-    .container.showgrid
+    .container
 
       = render :partial => '/partials/header'
 

@@ -17,7 +17,7 @@ color:
 
 body {
   font-family: Verdana, "Bitstream Vera Sans", sans-serif;
-  background-color: #F2F4F9;
+  background-color: #EFF1F7;
 }
 
 /* Headings
@@ -64,8 +64,6 @@ p.title {
 }
 
 .container {
-  background-image: url(/images/sidebar_background.png);
-  background-repeat: repeat-y;
   background-color: #FFFFFF;
 }
 
@@ -89,12 +87,15 @@ p.title {
 #top_navigator ul { list-style-type: none; margin-top: 0.5em; }
 #top_navigator ul li { display: inline; padding: 0 0.5em; }
 
-#side_navigator ul { list-style-type: none; }
-#side_navigator ul { margin-left: 0; }
+#side_navigator ul {
+  list-style-type: none;
+  margin-left: 0;
+}
 
 #footer { background-color: #FFFFFF; }
 #footer p { text-align: center; }
 
+#content img { border: 1px solid #AAA; }
 p.emphasis { font-size: 1.1em; }
 
 .box {
