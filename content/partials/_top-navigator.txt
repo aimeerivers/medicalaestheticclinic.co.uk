@@ -15,4 +15,3 @@ filter: haml
       %a{:href => '/'} Links
     %li
       %a{:href => '/'} Contact
-  %hr/
