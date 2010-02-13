@@ -1,0 +1,245 @@
+<mockup version="1.0" skin="sketch" measuredW="1148" measuredH="1492">
+  <controls>
+    <control controlID="192" controlTypeID="com.balsamiq.mockups::Canvas" x="838" y="1032" w="239" h="138" measuredW="100" measuredH="70" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15790322</color>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="193" controlTypeID="com.balsamiq.mockups::Label" x="860" y="1042" w="190" h="34" measuredW="113" measuredH="29" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gift%20Vouchers</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="194" controlTypeID="com.balsamiq.mockups::Label" x="860" y="1076" w="130" h="81" measuredW="398" measuredH="23" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>We%20offer%20gift%20vouchers%20on%20all%20our%20products.%20Just%20ask%20at%20reception.</text>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="195" controlTypeID="com.balsamiq.mockups::Link" x="946" y="1130" w="-1" h="-1" measuredW="49" measuredH="25" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>more%20%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="196" controlTypeID="com.balsamiq.mockups::Image" x="997" y="1076" w="59" h="53" measuredW="141" measuredH="144" zOrder="41" locked="false" isInGroup="-1"/>
+    <control controlID="197" controlTypeID="com.balsamiq.mockups::Canvas" x="837" y="1185" w="239" h="138" measuredW="100" measuredH="70" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="198" controlTypeID="com.balsamiq.mockups::Label" x="859" y="1195" w="190" h="34" measuredW="120" measuredH="29" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>How%20to%20find%20us</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="199" controlTypeID="com.balsamiq.mockups::Label" x="859" y="1229" w="130" h="81" measuredW="425" measuredH="23" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Visit%20us%20at%2033%20Southgate%20Street%20in%20Winchester%2C%20near%20the%20Hotel%20Du%20Vin.</text>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="200" controlTypeID="com.balsamiq.mockups::Link" x="972" y="1284" w="-1" h="-1" measuredW="49" measuredH="25" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>more%20%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="201" controlTypeID="com.balsamiq.mockups::Image" x="996" y="1229" w="59" h="53" measuredW="141" measuredH="144" zOrder="46" locked="false" isInGroup="-1"/>
+    <control controlID="202" controlTypeID="com.balsamiq.mockups::Image" x="688" y="290" w="110" h="103" measuredW="141" measuredH="144" zOrder="47" locked="false" isInGroup="-1"/>
+    <control controlID="187" controlTypeID="com.balsamiq.mockups::Label" x="860" y="889" w="190" h="34" measuredW="113" measuredH="29" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Special%20Offer</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::LinkBar" x="392" y="160" w="-1" h="-1" measuredW="430" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Treatments%2C%20Products%2C%20About%20Us%2C%20Links%2C%20Contact</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Title" x="385" y="104" w="-1" h="-1" measuredW="450" measuredH="51" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>The%20Medical%20Aesthetic%20Clinic</text>
+        <size>32</size>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="164" y="205" w="-1" h="-1" measuredW="293" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pulsar%20Intense%20Pulsed%20Light%20%28IPL%29</text>
+        <size>18</size>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="__group__" x="161" y="1338" w="-1" h="-1" measuredW="919" measuredH="106" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="79" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="919" h="106" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="156">
+          <controlProperties>
+            <color>15132390</color>
+          </controlProperties>
+        </control>
+        <control controlID="80" controlTypeID="com.balsamiq.mockups::Label" x="605" y="15" w="299" h="25" measuredW="299" measuredH="25" zOrder="1" locked="false" isInGroup="156">
+          <controlProperties>
+            <text>33%20Southgate%20Street%2C%20Winchester%2C%20SO23%209EH</text>
+          </controlProperties>
+        </control>
+        <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="11" y="11" w="200" h="80" measuredW="141" measuredH="144" zOrder="2" locked="false" isInGroup="156"/>
+        <control controlID="82" controlTypeID="com.balsamiq.mockups::Image" x="220" y="13" w="106" h="35" measuredW="141" measuredH="144" zOrder="3" locked="false" isInGroup="156"/>
+        <control controlID="83" controlTypeID="com.balsamiq.mockups::Label" x="656" y="40" w="249" h="25" measuredW="249" measuredH="25" zOrder="4" locked="false" isInGroup="156">
+          <controlProperties>
+            <text>reception@medicalaestheticclinic.co.uk</text>
+          </controlProperties>
+        </control>
+        <control controlID="84" controlTypeID="com.balsamiq.mockups::Label" x="700" y="66" w="205" h="25" measuredW="205" measuredH="25" zOrder="5" locked="false" isInGroup="156">
+          <controlProperties>
+            <text>Call%20us%20today%20on%2001962%20840400</text>
+          </controlProperties>
+        </control>
+        <control controlID="85" controlTypeID="com.balsamiq.mockups::Image" x="220" y="55" w="106" h="35" measuredW="141" measuredH="144" zOrder="6" locked="false" isInGroup="156"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Label" x="166" y="237" w="-1" h="-1" measuredW="189" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>for%20permanent%20hair%20reduction</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Canvas" x="837" y="206" w="240" h="325" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15790322</color>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::Label" x="860" y="221" w="-1" h="-1" measuredW="168" measuredH="29" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Treatments%20available</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::List" x="853" y="250" w="192" h="130" measuredW="100" measuredH="126" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Permanent%20Hair%20Reduction%0APhotorejuvenation%0AAcne%0ARosacea%0APigmented%20Lesions%0AThread%20Veins</text>
+        <borderStyle>none</borderStyle>
+        <color>15594478</color>
+        <alternateRowColor>15594478</alternateRowColor>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::List" x="853" y="395" w="192" h="130" measuredW="100" measuredH="126" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wrinkle%20Relaxing%20Injections%0ADermal%20Fillers%0ASclerotherapy%0AMicrodermabrasion</text>
+        <borderStyle>none</borderStyle>
+        <color>15594478</color>
+        <alternateRowColor>15594478</alternateRowColor>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::Canvas" x="837" y="540" w="240" h="325" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <color>15790322</color>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::Label" x="860" y="556" w="144" h="29" measuredW="144" measuredH="29" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Products%20available</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Image" x="857" y="591" w="59" h="53" measuredW="141" measuredH="144" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Label" x="919" y="596" w="141" h="48" measuredW="174" measuredH="25" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Semi-permanent%20cosmetics</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::Label" x="929" y="731" w="83" h="48" measuredW="92" measuredH="25" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dermal%20fillers</text>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::Label" x="923" y="663" w="112" h="50" measuredW="167" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Jan%20Marini%20Skin%20Research</text>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Label" x="926" y="801" w="116" h="51" measuredW="194" measuredH="25" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Jane%20Iredale%20mineral%20make%20up</text>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::Image" x="860" y="729" w="59" h="53" measuredW="141" measuredH="144" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Image" x="857" y="659" w="59" h="53" measuredW="141" measuredH="144" zOrder="18" locked="false" isInGroup="-1"/>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::Image" x="859" y="797" w="59" h="53" measuredW="141" measuredH="144" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="174" controlTypeID="com.balsamiq.mockups::Canvas" x="164" y="273" w="649" h="135" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13158600</color>
+      </controlProperties>
+    </control>
+    <control controlID="175" controlTypeID="com.balsamiq.mockups::Label" x="176" y="282" w="-1" h="-1" measuredW="189" measuredH="29" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>February%20Special%20Offer</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="176" controlTypeID="com.balsamiq.mockups::Label" x="177" y="309" w="503" h="44" measuredW="976" measuredH="25" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Book%20a%20course%20of%203%20treatments%20and%20enjoy%20a%20limited%20offer%20of%2020%25%20off.%20You%20can%20choose%20to%20have%20a%20single%20area%20treated%20or%20combine%20up%20to%203%20different%20areas.</text>
+      </controlProperties>
+    </control>
+    <control controlID="177" controlTypeID="com.balsamiq.mockups::Label" x="179" y="351" w="503" h="44" measuredW="790" measuredH="25" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Your%20course%20of%203%20must%20be%20paid%20for%20in%20advance%20during%20February%20and%20your%20first%20appointment%20taken%20during%20February%20or%20March.</text>
+      </controlProperties>
+    </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::Paragraph" x="501" y="425" w="312" h="279" measuredW="200" measuredH="140" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>How%20does%20the%20system%20work%3F%0AThe%20energy%20from%20the%20light%20source%20is%20taken%20up%20by%20the%20pigments%20%28melanin%20and%20haemoglobin%29%20in%20the%20skin%2C%20hairs%20and%20blood%20vessels.%20Selective%20filtration%20makes%20the%20energy%20uptake%20specific%20for%20melanin%20%28600%20to%20950%20nanometres%29%20or%20haemoglobin%20%28530%20to%20950%20nanometres%29%3B%20thus%20the%20system%20can%20be%20used%20for%20hair%20removal%2C%20vascular%20lesions%20and%20pigmented%20lesions.%0A%20%0AHair%20removal%20is%20accomplished%20by%20the%20generation%20of%20heat%20from%20light%20in%20the%20melanin%2C%20which%20is%20then%20transferred%20to%20the%20hair%20follicle%20%28root%29.</text>
+      </controlProperties>
+    </control>
+    <control controlID="179" controlTypeID="com.balsamiq.mockups::Image" x="164" y="425" w="312" h="279" measuredW="141" measuredH="144" zOrder="25" locked="false" isInGroup="-1"/>
+    <control controlID="180" controlTypeID="com.balsamiq.mockups::Paragraph" x="164" y="716" w="649" h="211" measuredW="200" measuredH="140" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pulse%20times%20of%20this%20applied%20light%20have%20been%20chosen%20to%20destroy%20the%20hair%20follicle%20by%20heating%20for%20at%20least%201%20millisecond%20%28one%20thousandth%20of%20a%20second%29%20to%2070%20degrees%20centigrade.%0A%20%0AWhy%20is%20gel%20used%3F%0AIt%20is%20necessary%20to%20apply%20a%20thin%20layer%20of%20gel%20to%20the%20skin%20prior%20to%20treatment%20to%20ensure%20an%20optimal%20optical%20transmission%20of%20light%20from%20the%20applicator%20to%20the%20skin.%0A%20%0AHow%20is%20the%20treatment%20carried%20out%3F%0AThe%20applicator%20%28hand%20piece%29%20is%20placed%20in%20contact%20with%20the%20skin%20surface%20and%20the%20light%20pulsed%20through%20it%20onto%20the%20skin.%20The%20applicator%20is%20then%20moved%20to%20the%20neighbouring%20area%20and%20the%20process%20is%20repeated.</text>
+      </controlProperties>
+    </control>
+    <control controlID="181" controlTypeID="com.balsamiq.mockups::Label" x="164" y="942" w="-1" h="-1" measuredW="200" measuredH="32" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Before/After%20Pictures</text>
+        <size>18</size>
+      </controlProperties>
+    </control>
+    <control controlID="182" controlTypeID="com.balsamiq.mockups::Image" x="161" y="974" w="312" h="279" measuredW="141" measuredH="144" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="183" controlTypeID="com.balsamiq.mockups::Image" x="510" y="974" w="312" h="279" measuredW="141" measuredH="144" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="184" controlTypeID="com.balsamiq.mockups::Label" x="164" y="1262" w="-1" h="-1" measuredW="253" measuredH="25" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Young%20female%20with%20abundant%20facial%20hair</text>
+      </controlProperties>
+    </control>
+    <control controlID="185" controlTypeID="com.balsamiq.mockups::Label" x="510" y="1262" w="-1" h="-1" measuredW="130" measuredH="25" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>After%204%20treatments</text>
+      </controlProperties>
+    </control>
+    <control controlID="186" controlTypeID="com.balsamiq.mockups::Canvas" x="838" y="879" w="239" h="138" measuredW="100" measuredH="70" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15132390</color>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="114" y="15" w="1024" h="1467" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Pulsar%20Intense%20Pulsed%20Light%20%28IPL%29%20for%20permanent%20hair%20reduction%20available%20at%20The%20Medical%20Aesthetic%20Clinic%0Ahttp%3A//medicalaestheticclinic.co.uk/treatments/pulsar-intense-pulsed-light</text>
+      </controlProperties>
+    </control>
+    <control controlID="189" controlTypeID="com.balsamiq.mockups::Label" x="860" y="923" w="130" h="81" measuredW="418" measuredH="23" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>20%25%20off%20when%20you%20purchase%20a%20course%20of%203%20IPL%20treatments%20in%20February</text>
+        <size>12</size>
+      </controlProperties>
+    </control>
+    <control controlID="190" controlTypeID="com.balsamiq.mockups::Link" x="923" y="978" w="-1" h="-1" measuredW="49" measuredH="25" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>more%20%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="191" controlTypeID="com.balsamiq.mockups::Image" x="997" y="923" w="59" h="53" measuredW="141" measuredH="144" zOrder="36" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
