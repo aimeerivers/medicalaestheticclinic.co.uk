@@ -41,9 +41,16 @@
         <text>for%20skin%20rejuvenation%20%28skin%20peeling%29</text>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::LinkBar" x="392" y="160" w="-1" h="-1" measuredW="430" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Image" x="164" y="697" w="82" h="76" measuredW="141" measuredH="144" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="253" y="701" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Home%2C%20Treatments%2C%20Products%2C%20About%20Us%2C%20Links%2C%20Contact</text>
+        <text>Pulsar%20IPL%20for%20Pigmented%20Lesions</text>
+        <size>16</size>
+      </controlProperties>
+    </control>
+    <control controlID="149" controlTypeID="com.balsamiq.mockups::Label" x="255" y="726" w="-1" h="-1" measuredW="246" measuredH="25" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>to%20treat%20pigmented%20or%20vascular%20lesions</text>
       </controlProperties>
     </control>
     <control controlID="26" controlTypeID="com.balsamiq.mockups::Title" x="385" y="104" w="-1" h="-1" measuredW="450" measuredH="51" zOrder="2" locked="false" isInGroup="-1">
@@ -58,24 +65,17 @@
         <size>18</size>
       </controlProperties>
     </control>
-    <control controlID="149" controlTypeID="com.balsamiq.mockups::Label" x="255" y="726" w="-1" h="-1" measuredW="246" measuredH="25" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::LinkBar" x="392" y="160" w="-1" h="-1" measuredW="430" measuredH="25" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>to%20treat%20pigmented%20or%20vascular%20lesions</text>
+        <text>Home%2C%20Treatments%2C%20Products%2C%20About%20Us%2C%20Links%2C%20Contact</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::Label" x="166" y="237" w="-1" h="-1" measuredW="538" measuredH="25" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>All%20treatments%20are%20carried%20out%20by%20a%20fully%20trained%20and%20professionally%20qualified%20nurse.</text>
       </controlProperties>
     </control>
     <control controlID="34" controlTypeID="com.balsamiq.mockups::Image" x="164" y="289" w="82" h="76" measuredW="141" measuredH="144" zOrder="4" locked="false" isInGroup="-1"/>
-    <control controlID="147" controlTypeID="com.balsamiq.mockups::Image" x="164" y="697" w="82" h="76" measuredW="141" measuredH="144" zOrder="28" locked="false" isInGroup="-1"/>
-    <control controlID="148" controlTypeID="com.balsamiq.mockups::Label" x="253" y="701" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="29" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Pulsar%20IPL%20for%20Pigmented%20Lesions</text>
-        <size>16</size>
-      </controlProperties>
-    </control>
-    <control controlID="106" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="115" y="16" w="1024" h="939" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>The%20Medical%20Aesthetic%20Clinic%20in%20Winchester%0Ahttp%3A//medicalaestheticclinic.co.uk</text>
-      </controlProperties>
-    </control>
     <control controlID="156" controlTypeID="__group__" x="164" y="808" w="-1" h="-1" measuredW="919" measuredH="106" zOrder="31" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="79" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="919" h="106" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="156">
@@ -103,9 +103,9 @@
         <control controlID="85" controlTypeID="com.balsamiq.mockups::Image" x="220" y="55" w="106" h="35" measuredW="141" measuredH="144" zOrder="6" locked="false" isInGroup="156"/>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="157" controlTypeID="com.balsamiq.mockups::Label" x="166" y="237" w="-1" h="-1" measuredW="538" measuredH="25" zOrder="32" locked="false" isInGroup="-1">
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="115" y="16" w="1024" h="939" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>All%20treatments%20are%20carried%20out%20by%20a%20fully%20trained%20and%20professionally%20qualified%20nurse.</text>
+        <text>Treatments%20available%20at%20The%20Medical%20Aesthetic%20Clinic%20in%20Winchester%0Ahttp%3A//medicalaestheticclinic.co.uk/treatments</text>
       </controlProperties>
     </control>
     <control controlID="112" controlTypeID="com.balsamiq.mockups::Label" x="253" y="293" w="-1" h="-1" measuredW="261" measuredH="29" zOrder="5" locked="false" isInGroup="-1">
