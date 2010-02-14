@@ -8,6 +8,10 @@ filter:    haml
     %meta{'http-equiv' => 'content-type', :content => 'text/html', :charset => 'utf-8'}
     %title= @page.title
 
+    %script{:type => 'text/javascript', :src => 'http://use.typekit.com/fdq5azp.js'}
+    :javascript
+      try{Typekit.load();}catch(e){}
+
     %link{:rel => 'stylesheet', :href => '/css/blueprint/screen.css', :type => 'text/css', :media => 'screen, projection'}
     %link{:rel => 'stylesheet', :href => '/css/blueprint/print.css', :type => 'text/css', :media => 'print'}
     /[if IE]
