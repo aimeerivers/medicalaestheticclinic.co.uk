@@ -17,7 +17,6 @@ color:
 
 body {
   font-family: "droid-sans-1","droid-sans-2", sans-serif;
-  background-color: #EFF1F7;
 }
 
 /* Headings
@@ -61,51 +60,5 @@ p.title {
   font-size: 2em;
   margin-bottom: 0.75em;
 }
-
-.container {
-  background-color: #FFFFFF;
-}
-
-#header {
-  background-color: #212162;
-  background-image: url(/images/header_background.jpg);
-  background-repeat: no-repeat;
-  color: #FFFFFF;
-}
-#header p.title {
-  font-size: 3em;
-  line-height: 1.5em;
-  margin-bottom: 0.5em;
-  text-align: center;
-  color: #FFFFFF;
-}
-#header p.phone { float: right; }
-#header p.address { text-align: center; }
-
-#top_navigator { text-align: center; }
-#top_navigator ul { list-style-type: none; margin-top: 0.5em; }
-#top_navigator ul li { display: inline; padding: 0 0.5em; }
-
-#side_navigator ul {
-  list-style-type: none;
-  margin-left: 0;
-}
-
-#footer { background-color: #FFFFFF; }
-#footer p { text-align: center; }
-
-#content img { border: 1px solid #AAA; }
-p.emphasis { font-size: 1.1em; }
-
-.box {
-  border: 1px solid #B2CCFF;
-  padding: 0.5em;
-}
-
-.box h3 { font-size: 1.2em; margin-bottom: 0.5em; }
-
-.box p { margin-bottom: 2px; }
-
-.box p.link { text-align: right; }
 
 /* EOF */

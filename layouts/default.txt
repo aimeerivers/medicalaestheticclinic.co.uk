@@ -19,6 +19,7 @@ filter:    haml
 
     %link{:rel => 'stylesheet', :href => '/css/coderay.css', :type => 'text/css'}
     %link{:rel => 'stylesheet', :href => '/css/site.css', :type => 'text/css', :media => 'screen, projection'}
+    %link{:rel => 'stylesheet', :href => '/css/clinic.css', :type => 'text/css', :media => 'screen, projection'}
 
   %body
     .container
