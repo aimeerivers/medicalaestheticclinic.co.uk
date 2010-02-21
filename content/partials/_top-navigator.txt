@@ -5,13 +5,18 @@ filter: haml
   %ul
     %li
       %a{:href => '/'} Home
+    |
     %li
       %a{:href => '/'} Treatments
+    |
     %li
       %a{:href => '/'} Products
+    |
     %li
       %a{:href => '/'} About Us
+    |
     %li
       %a{:href => '/'} Links
+    |
     %li
       %a{:href => '/'} Contact
