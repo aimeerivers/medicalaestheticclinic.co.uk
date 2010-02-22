@@ -1,0 +1,27 @@
+---
+filter: haml
+---
+#callout-boxes.column.span-24
+  .column.span-8
+    .callout-box.clearfix.first-box
+      %img{:src => '/images/callouts/special_offer.png'}
+      %p.title Special Offer
+      %p
+        20% off when you purchase a course of 3 IPL treatments in February.
+        %a{:href => '/'} more &gt;
+
+  .column.span-8
+    .callout-box.second-box
+      %img{:src => '/images/callouts/gift.png'}
+      %p.title Gift Vouchers
+      %p
+        We offer gift vouchers on all our treatments and products. Just ask at reception.
+        %a{:href => '/'} more &gt;
+
+  .column.span-8.last
+    .callout-box.third-box
+      %img{:src => '/images/callouts/map.png'}
+      %p.title How to find us
+      %p
+        Visit us at 33 Southgate Street in Winchester, near the Hotel Du Vin.
+        %a{:href => '/'} more &gt;

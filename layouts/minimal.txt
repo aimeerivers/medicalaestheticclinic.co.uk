@@ -15,12 +15,7 @@ filter:    haml
 
       = render :partial => '/partials/top-navigator'
 
-      .column.span-17.prepend-6.append-1.last
-        %p.title= @page.heading
-
-      = render :partial => '/partials/side-navigator'
-
-      .column.span-17.append-1.last#content
+      .column.span-24
         = @content
 
       = render :partial => '/partials/footer'

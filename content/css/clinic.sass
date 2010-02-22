@@ -18,7 +18,7 @@ body
       top: 0.6em
       bottom: 0
     font-size: 2.1em
-    color: #624590
+    color: #542c81
 
 #top_navigator
   ul
@@ -26,6 +26,7 @@ body
     text-align: center
     list-style-type: none
     font-size: 0.8em
+    margin-bottom: 11px
 
     li
       display: inline
@@ -36,3 +37,56 @@ body
       a
         color = !top_nav_text_colour
         text-decoration: none
+      a:hover
+        text-decoration: underline
+        color = !text_colour
+
+#callout-boxes
+  margin-bottom: 1em
+
+  .callout-box
+    padding: 8px
+    -moz-border-radius: 5px
+    -webkit-border-radius: 5px
+    background-color: #cbc1da
+
+    p
+      margin-bottom: 2px
+      font-size: 0.8em
+
+    p.title
+      font-size: 1.2em
+      color = !text_colour
+
+    img
+      float: right
+      margin-left: 8px
+      border: 1px solid #b3a5c9
+    a
+      text-decoration: none
+      margin-left: 0.5em
+      color: #745198
+    a:hover
+      text-decoration: underline
+      color = !text_colour
+
+  .first-box
+    background-color: #c2b1d3
+    img
+      float: left
+      margin-right: 8px
+      margin-left: 0
+
+  .second-box
+    background-color: #ffc7fa
+    a
+      color: #8a58a6
+
+  .third-box
+    background-color: #dbc8f2
+    a
+      color: #7c58a4
+
+  .first-box, .second-box, .third-box
+    a:hover
+      color = !text_colour
