@@ -7,6 +7,11 @@ layout:    nil
 !text_colour = #513184
 !top_nav_text_colour = #735a9c
 
+=rounded_corners
+  -moz-border-radius: 5px
+  -webkit-border-radius: 5px
+  
+
 body
   font-size: 100%
   color = !text_colour
@@ -37,18 +42,17 @@ body
       a
         color = !top_nav_text_colour
         text-decoration: none
-      a:hover
-        text-decoration: underline
-        color = !text_colour
+        &:hover
+          text-decoration: underline
+          color = !text_colour
 
 #callout-boxes
-  margin-bottom: 1em
+  margin-bottom: 13px
 
   .callout-box
     padding: 8px
-    -moz-border-radius: 5px
-    -webkit-border-radius: 5px
     background-color: #cbc1da
+    +rounded_corners
 
     p
       margin-bottom: 2px
@@ -66,9 +70,9 @@ body
       text-decoration: none
       margin-left: 0.5em
       color: #745198
-    a:hover
-      text-decoration: underline
-      color = !text_colour
+      &:hover
+        text-decoration: underline
+        color = !text_colour
 
   .first-box
     background-color: #c2b1d3
@@ -90,3 +94,14 @@ body
   .first-box, .second-box, .third-box
     a:hover
       color = !text_colour
+
+#cta
+  margin-bottom: 13px
+
+  .cta
+    background-color: #886aa9
+    +rounded_corners
+    color: white
+    font-size: 1.5em
+    text-align: center
+    padding: 2px 0

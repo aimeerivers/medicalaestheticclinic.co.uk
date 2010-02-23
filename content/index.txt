@@ -7,6 +7,7 @@ filter:      haml
 ---
 
 = render :partial => 'partials/callouts'
+= render :partial => 'partials/cta'
 
 .column.span-11
   .column.span-4
