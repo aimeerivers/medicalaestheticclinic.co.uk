@@ -5,6 +5,7 @@ layout:    nil
 ---
 
 !text_colour = #513184
+!link_colour = #745198
 !top_nav_text_colour = #735a9c
 
 =rounded_corners
@@ -69,7 +70,7 @@ body
     a
       text-decoration: none
       margin-left: 0.5em
-      color: #745198
+      color = !link_colour
       &:hover
         text-decoration: underline
         color = !text_colour
@@ -107,8 +108,35 @@ body
     padding: 2px 0
 
 #content
+  h1, h2, h3, h4, h5, h6
+    color = !text_colour
   h1
     font-size: 1.5em
+  h2
+    font-size: 1.4em
+  h3
+    font-size: 1.3em
+
+  a
+    color = !link_colour
+    &:hover
+      color = !text_colour
 
   img
     border: 1px solid #c8bbd7
+
+
+  .box
+    +rounded_corners
+    padding: 15px
+
+  .box.treatments
+    background-color: #e9e3ef
+
+    ul
+      list-style-type: none
+      margin: 0
+
+
+.span-5-point-5
+  width: 205px
