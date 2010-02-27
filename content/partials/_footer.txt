@@ -2,7 +2,19 @@
 filter: haml
 ---
 .column.span-24.first.last#footer
-  %hr/
-  %p
-    This website was created with
-    %a{:href => 'http://webby.rubyforge.org'} Webby
+  .span-4
+    %img{:src => '/images/awards/aesthetic-medicine-awards-finalist.jpg', :alt => 'Aesthetic Medicine Awards Finalist 2009', :width => '145', :height => '75'}
+
+  .span-3
+    %img{:src => '/images/awards/quality-care-commission.jpg', :alt => 'Quality Care Commision', :width => '105', :height => '33'}
+    %img{:src => '/images/awards/healthcare-commission.jpg', :alt => 'Healthcare Commission', :width => '105', :height => '41'}
+    
+  .span-17.last.contact_details
+    %p
+      33 Southgate Street, Winchester, SO23 9EH
+      %br/
+      recep
+      %a{:title => 'Reveal this email address', :onclick => "window.open('http://mailhide.recaptcha.net/d?k=01sP-4Hut8rvA-BUs22NVIMw==&amp;c=0YWz-Seo-n2gQzFhtWN_eaW_We7TGJiI5Sm_XdmzVQdxPTGA1f-s7fKJwYNoSfSI', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;", :href => 'http://mailhide.recaptcha.net/d?k=01sP-4Hut8rvA-BUs22NVIMw==&amp;c=0YWz-Seo-n2gQzFhtWN_eaW_We7TGJiI5Sm_XdmzVQdxPTGA1f-s7fKJwYNoSfSI'}>...
+      @medicalaestheticclinic.co.uk
+      %br/
+      Call us today on 01962 840400
