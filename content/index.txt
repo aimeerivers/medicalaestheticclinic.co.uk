@@ -9,24 +9,31 @@ filter:      haml
 = render :partial => 'partials/callouts'
 = render :partial => 'partials/cta'
 
-.column.span-11
-  .column.span-4
-    %img{:src => '/images/cathy.jpg', :alt => 'Cathy Wallwork'}
-  .column.span-7.last
-    %p.emphasis We are a nurse led clinic specialising in medical aesthetics. At the forefront of advanced beauty, offering an affordable range of some of the most sophisticated non-surgical, anti-aging products and treatments available in the market today.
+.column.span-24
+  .column.span-12
+    %h1 Welcome to the Medical Aesthetic Clinic
 
-  .column.span-4
-    %img{:src => '/images/clinic.jpg', :alt => 'The Clinic'}
-  .column.span-7.last
-    %p.emphasis We are situated near the centre of Winchester, on Southgate Street, close to the Hotel Du Vin and The Scren cinema. Contact us on 01962 840400 or reception@medicalaestheticclinic.co.uk
+    .column.span-12.last
+      .column.span-6
+        %img{:src => '/images/claudia.jpg', :alt => '', :width => '223', :height => '223'}
 
-  .column.span-4
-    %img{:src => '/images/testimonial.jpg', :alt => 'Testimonial'}
-  .column.span-7.last
-    %p.emphasis
-      Testimonial
-      %br/
-      "Cathy is highly experienced and ensures you are well informed about any procedure you may be considering, and that the treatment she is giving is perfectly suited to your individual needs."
+      .column.span-6.last
+        %p We are a nurse-led clinic specialising in medical aesthetics. At the forefront of advanced beauty, offering an affordable range of some of the most sophisticated non-surgical, anti-aging products and treatments available in the market today.
+
+    .column.span-12.last
+      .column.span-6
+        %p
+          Testimonial
+          %br/
+          "Cathy is highly experienced and ensures you are well informed about any procedure you may be considering, and that the treatment she is giving is perfectly suited to your individual needs."
+
+      .column.span-6.last
+        %img{:src => '/images/lucy_pinder.jpg', :alt => '', :width => '223', :height => '223'}
+
+  .column.span-12.last
+    Treatments available
+  
+
 
 .column.span-6.last
   .box

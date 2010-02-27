@@ -15,7 +15,7 @@ filter:    haml
 
       = render :partial => '/partials/top-navigator'
 
-      .column.span-24
+      #content.column.span-24
         = @content
 
       = render :partial => '/partials/footer'
