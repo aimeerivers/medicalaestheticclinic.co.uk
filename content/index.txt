@@ -87,28 +87,3 @@ filter:      haml
             %p
               %a{:href => ''} iS CLINICAL&reg;
 
-
-.column.span-6.last
-  .box
-    %h3 Special Offer
-    %p Purchase a course of 3 IPL permanent hair reduction treatments in February and receive 20% off. Choose a single area or up to 3 different areas.
-    %p.link
-      %a{:href => '/'} more about hair removal &gt;
-
-  .box
-    %h3 Free Consultation
-    %p Initial consultations are free of charge and without obligation. Contact us to book your appointment.
-    %p.link
-      %a{:href => '/'} more about consultations &gt;
-
-  .box
-    %h3 Gift Vouchers
-    %p We offer gift vouchers for all our products. Just ask at reception.
-    %p.link
-      %a{:href => '/'} more about gift vouchers &gt;
-
-  .box
-    %h3 Featured Product
-    %p Jane Iredale's products are based on micronized minerals and are made without fillers or binders, and without chemical dyes or preservatives.
-    %p.link
-      %a{:href => '/'} more products &gt;
