@@ -116,16 +116,16 @@ body
   h1
     font-size: 1.5em
   h2
-    font-size: 1.4em
-  h3
     font-size: 1.3em
+  h3
+    font-size: 1.1em
 
   a
     color = !link_colour
     &:hover
       color = !text_colour
 
-  img
+  img, iframe
     border: 1px solid #c8bbd7
 
 
@@ -155,8 +155,12 @@ body
         margin-bottom: 0
 
   .box.special-offer
-    background-color: #e5e0ec
+    background-color: #d4cce0
 
+  .box.find-us
+    background-color: #efeaf9
+
+  .box.special-offer, .box.find-us
     h2
       margin-bottom: 0.3em
 
@@ -185,6 +189,12 @@ body
 
   #sidebar .product
     height: auto
+
+  img.float-left
+    float: left
+    margin:
+      right: 15px
+      bottom: 15px
 
 #footer
   margin-top: 1.5em

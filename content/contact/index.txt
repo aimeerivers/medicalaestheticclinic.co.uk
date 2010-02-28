@@ -1,0 +1,43 @@
+---
+title:      Contacting The Medical Aesthetic Clinic
+created_at: 2010-02-27 21:02:17.790396 +00:00
+filter:     haml
+sidebars:   ['treatments', 'products']
+---
+%h1 How to Contact Us
+
+.column.span-16.last
+  .column.span-8
+    %img{:src => '/images/clinic.jpg', :width => '303', :height => '303', :alt => 'The Medical Aesthetic Clinic on Southgate Street, Winchester'}
+
+  .column.span-8.last
+    %p You can find us on Southgate Street, very near to the Hotel Du Vin and The Screen cinema.
+    %p We are open 10am - 5pm on weekdays except for Wednesdays when we close at 2pm.
+    %p On Tuesdays we are open until 7pm for evening appointments.
+    %p We also open every other Saturday, 10am - 1pm. Please ask for further details. 
+
+
+.column.span-16.last
+  .column.span-8
+    %p
+      The Medical Aesthetic Clinic
+      %br/
+      33 Southgate Street
+      %br/
+      Winchester
+      %br/
+      SO23 9EH
+
+    %p
+      Contact us by phone or email:
+      %br/
+      01962 840400
+      %br/
+      = render :partial => 'partials/email-address'
+
+    %p
+      %a{:href => "http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=The+Medical+Aesthetic+Clinic,+Winchester&sll=51.063191,-1.319389&sspn=0.02012,0.063343&ie=UTF8&hq=The+Medical+Aesthetic+Clinic,&hnear=Winchester,+UK&ll=51.064189,-1.317759&spn=0.01006,0.031672&z=15&iwloc=A", :target => '_blank'} Find us on Google Maps &gt;
+
+  .column.span-8.last
+    = render :partial => 'partials/map'
+

@@ -20,8 +20,9 @@ filter: haml
 
   .column.span-8.last
     .callout-box.third-box
-      %img{:src => '/images/callouts/map.png'}
+      %a{:href => '/contact'}
+        %img{:src => '/images/callouts/map.png'}
       %p.title How to find us
       %p
         Visit us at 33 Southgate Street in Winchester, near the Hotel Du Vin.
-        %a{:href => '/'} more &gt;
+        %a{:href => '/contact'} more &gt;

@@ -13,10 +13,10 @@ filter: haml
       %a{:href => '/products'} Products
     |
     %li
-      %a{:href => '/'} About Us
+      %a{:href => '/about'} About Us
     |
     %li
       %a{:href => '/'} Links
     |
     %li
-      %a{:href => '/'} Contact
+      %a{:href => '/contact'} Contact
