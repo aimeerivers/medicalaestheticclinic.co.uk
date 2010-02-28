@@ -7,7 +7,7 @@ filter: haml
       %img{:src => '/images/callouts/special_offer.png'}
       %p.title Special Offer
       %p
-        20% off when you purchase a course of 3 IPL treatments in February.
+        20% off when you purchase a course of 3 IPL treatments in March.
         %a{:href => '/'} more &gt;
 
   .column.span-8

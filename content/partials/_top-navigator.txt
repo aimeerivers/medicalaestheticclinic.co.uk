@@ -10,7 +10,7 @@ filter: haml
       %a{:href => '/treatments'} Treatments
     |
     %li
-      %a{:href => '/'} Products
+      %a{:href => '/products'} Products
     |
     %li
       %a{:href => '/'} About Us

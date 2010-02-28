@@ -1,0 +1,8 @@
+---
+filter: haml
+---
+.product.span-7.append-1.clearfix
+  %a{:href => '/'}
+    %img{:src => "/images/products/#{key}/range-63.jpg", :width => '63', :height => '63', :alt => name}
+  %a.title{:href => '/'}= name
+  .description= description
