@@ -8,7 +8,7 @@ sidebars:   ['products']
 %p All treatments are carried out by a fully trained and professionally qualified nurse.
 
 .column.span-16.last
-  .column.span-8.last
+  .column.span-8
     = render :partial => 'treatment', :locals => {:key => 'ipl', :name => 'Pulsar Intense Pulsed Light (IPL)', :description => 'for permanent hair reduction'}
     = render :partial => 'treatment', :locals => {:key => 'photorejuvenation', :name => 'Pulsar IPL Photorejuvenation', :description => 'to treat sun-damaged skin'}
     = render :partial => 'treatment', :locals => {:key => 'acne-treatment', :name => 'Pulsar IPL Acne Treatment', :description => 'to treat bacterial acne'}

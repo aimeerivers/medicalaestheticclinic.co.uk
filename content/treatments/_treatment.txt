@@ -1,10 +1,8 @@
 ---
 filter: haml
 ---
-.column.span-8.last.treatment
-  .column.span-2
-    %a{:href => '/'}
-      %img{:src => "/images/treatments/#{key}/#{key}-63.jpg", :width => '63', :height => '63', :alt => name}
-  .column.span-5.append-1.last
-    %a.title{:href => '/'}= name
-    %p= description
+.treatment.span-7.append-1.clearfix
+  %a{:href => '/'}
+    %img{:src => "/images/treatments/#{key}/#{key}-63.jpg", :width => '63', :height => '63', :alt => name}
+  %a.title{:href => '/'}= name
+  .description= description
