@@ -29,7 +29,7 @@ filter:      haml
       .column.span-6.last
         %img{:src => '/images/lucy_pinder.jpg', :alt => '', :width => '223', :height => '223'}
 
-  .column.span-12.last
+  .column.span-12.last#sidebar
     .box.treatments.clearfix
       %h2 Treatments available
       .column.span-11.last

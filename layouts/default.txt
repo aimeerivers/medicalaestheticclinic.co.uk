@@ -19,7 +19,7 @@ filter:    haml
         .column.span-16.first
           = @content
 
-        .column.span-8.last
+        .column.span-8.last#sidebar
           - if @page.sidebars
             - @page.sidebars.each do |sidebar|
               = render :partial => "/partials/sidebars/#{sidebar}"
