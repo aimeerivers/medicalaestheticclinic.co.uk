@@ -1,0 +1,20 @@
+---
+title:      The Medical Aesthetic Clinic - Useful and Related Links
+created_at: 2010-02-28 22:09:32.643384 +00:00
+filter:     haml
+sidebars:   ['treatments']
+---
+%h1 Useful and Related Links
+
+#links.column.span-16.last
+  .column.span-8
+    = render :partial => 'link', :locals => {:uri => 'http://hotelduvin.com/winchester/', :title => 'Hotel Du Vin Winchester', :description => 'A unique luxury boutique hotel, situated across the road from The Medical Aesthetic Clinic.'}
+
+    = render :partial => 'link', :locals => {:uri => 'http://uk-plastic-surgeon.co.uk/', :title => 'Nicholas Bennett FRCS.', :description => 'Plastic Surgery in Hampshire for breast augmentation, breast reduction, liposuction and abdominoplasty.'}
+
+  .column.span-8.last
+    = render :partial => 'link', :locals => {:uri => 'http://excelphotonix.com/', :title => 'excelphotonix - Pulsar IPL', :description => 'For more information about permanent hair reduction and photorejuvenation.'}
+
+    = render :partial => 'link', :locals => {:uri => 'http://nuyufitness.co.uk/', :title => 'nuyufitness', :description => 'Personal fitness consultancy.'}
+
+    = render :partial => 'link', :locals => {:uri => 'http://sermoasquared.co.uk/', :title => 'aimee daniells', :description => 'Creator and maintainer of this website.'}
