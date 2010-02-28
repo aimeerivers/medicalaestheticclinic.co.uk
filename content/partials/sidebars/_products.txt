@@ -1,0 +1,28 @@
+---
+filter: haml
+---
+.box.products.clearfix
+  %h2 Products available
+  .product.clearfix
+    %a{:href => '/'}
+      %img{:src => '/images/products/jan-marini/range-53.jpg', :alt => 'Jan Marini skin research', :width => '53', :height => '53'}
+    %p
+      %a{:href => '/'} Jan Marini skin research
+
+  .product.clearfix
+    %a{:href => '/'}
+      %img{:src => '/images/products/sesha/range-53.jpg', :alt => 'Sesha skin therapy', :width => '53', :height => '53'}
+    %p
+      %a{:href => '/'} Sesha skin therapy
+  
+  .product.clearfix
+    %a{:href => '/'}
+      %img{:src => '/images/products/jane-iredale/range-53.jpg', :alt => 'Jane Iredale mineral make up', :width => '53', :height => '53'}
+    %p
+      %a{:href => '/'} Jane Iredale mineral make up
+
+  .product.clearfix
+    %a{:href => '/'}
+      %img{:src => '/images/products/is-clinical/range-53.jpg', :alt => 'iS CLINICAL&reg;', :width => '53', :height => '53'}
+    %p
+      %a{:href => '/'} iS CLINICAL&reg;

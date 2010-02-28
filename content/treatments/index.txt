@@ -1,0 +1,23 @@
+---
+title:      Treatments available at The Medical Aesthetic Clinic
+created_at: 2010-02-27 21:02:17.790396 +00:00
+filter:     haml
+sidebars:   ['products']
+---
+%h1 Treatments Available
+%p All treatments are carried out by a fully trained and professionally qualified nurse.
+
+.column.span-16.last
+  .column.span-8.last
+    = render :partial => 'treatment', :locals => {:key => 'ipl', :name => 'Pulsar Intense Pulsed Light (IPL)', :description => 'for permanent hair reduction'}
+    = render :partial => 'treatment', :locals => {:key => 'photorejuvenation', :name => 'Pulsar IPL Photorejuvenation', :description => 'to treat sun-damaged skin'}
+    = render :partial => 'treatment', :locals => {:key => 'acne-treatment', :name => 'Pulsar IPL Acne Treatment', :description => 'to treat bacterial acne'}
+    = render :partial => 'treatment', :locals => {:key => 'rosacea-treatment', :name => 'Pulsar IPL for Rosacea', :description => 'to treat facial redness'}
+    = render :partial => 'treatment', :locals => {:key => 'pigmented-lesions', :name => 'Pulsar IPL for Pigmented Lesions', :description => 'to treat pigmented or vascular lesions'}
+
+
+  .column.span-8.last
+    = render :partial => 'treatment', :locals => {:key => 'wrinkle-relaxing-injections', :name => 'Wrinkle Relaxing Injections', :description => 'for a softened, natural look'}
+    = render :partial => 'treatment', :locals => {:key => 'dermal-fillers', :name => 'Dermal Fillers', :description => 'to naturally remove facial lines, wrinkles and folds'}
+    = render :partial => 'treatment', :locals => {:key => 'sclerotherapy', :name => 'Sclerotherapy', :description => 'to remove thread veins in the legs'}
+    = render :partial => 'treatment', :locals => {:key => 'microdermabrasion', :name => 'Microdermabrasion', :description => 'for skin rejuvenation (skin peeling)'}

@@ -9,18 +9,19 @@ filter:    haml
     = render :partial => '/partials/includes'
 
   %body
-    .container
+    .container.default
 
       = render :partial => '/partials/header'
 
       = render :partial => '/partials/top-navigator'
 
-      .column.span-17.prepend-6.append-1.last
-        %p.title= @page.heading
+      #content.span-24
+        .column.span-16.first
+          = @content
 
-      = render :partial => '/partials/side-navigator'
-
-      .column.span-17.append-1.last#content
-        = @content
+        .column.span-8.last
+          - if @page.sidebars
+            - @page.sidebars.each do |sidebar|
+              = render :partial => "/partials/sidebars/#{sidebar}"
 
       = render :partial => '/partials/footer'
