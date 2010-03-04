@@ -18,6 +18,6 @@ sidebars:   ['special-offer', 'products']
 
   .column.span-8.last
     = render :partial => 'treatment', :locals => {:key => 'wrinkle-relaxing-injections', :name => 'Wrinkle Relaxing Injections', :description => 'for a softened, natural look'}
-    = render :partial => 'treatment', :locals => {:key => 'dermal-fillers', :name => 'Dermal Fillers', :description => 'to naturally remove facial lines, wrinkles and folds'}
+    = render :partial => 'treatment', :locals => {:key => 'dermal-fillers', :name => 'Dermal Fillers', :description => 'to remove facial lines, wrinkles and folds'}
     = render :partial => 'treatment', :locals => {:key => 'sclerotherapy', :name => 'Sclerotherapy', :description => 'to remove thread veins in the legs'}
     = render :partial => 'treatment', :locals => {:key => 'microdermabrasion', :name => 'Microdermabrasion', :description => 'for skin rejuvenation (skin peeling)'}
