@@ -26,3 +26,7 @@ filter: haml
       %a{:href => ''} Sclerotherapy
     %li
       %a{:href => ''} Microdermabrasion
+    %li
+      %a{:href => ''} Diathermy
+    %li
+      %a{:href => ''} Semi-permanent cosmetics

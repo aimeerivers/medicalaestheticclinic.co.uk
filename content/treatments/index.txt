@@ -21,3 +21,5 @@ sidebars:   ['special-offer', 'products']
     = render :partial => 'treatment', :locals => {:key => 'dermal-fillers', :name => 'Dermal Fillers', :description => 'to remove facial lines, wrinkles and folds'}
     = render :partial => 'treatment', :locals => {:key => 'sclerotherapy', :name => 'Sclerotherapy', :description => 'to remove thread veins in the legs'}
     = render :partial => 'treatment', :locals => {:key => 'microdermabrasion', :name => 'Microdermabrasion', :description => 'for skin rejuvenation (skin peeling)'}
+    = render :partial => 'treatment', :locals => {:key => 'diathermy', :name => 'Diathermy', :description => 'for the removal of skin tags and facial thread veins'}
+    = render :partial => 'treatment', :locals => {:key => 'semi-permanent-cosmetics', :name => 'Semi-Permanent Cosmetics', :description => 'enhance your natural beauty'}
