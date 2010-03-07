@@ -1,0 +1,16 @@
+---
+filter: haml
+---
+%ul
+  %li
+    %a{:href => '/'} Wrinkle relaxing injections
+  %li
+    %a{:href => '/'} Dermal fillers
+  %li
+    %a{:href => '/'} Sclerotherapy
+  %li
+    %a{:href => '/'} Microdermabrasion
+  %li
+    %a{:href => '/'} Diathermy
+  %li
+    %a{:href => '/'} Semi-permanent cosmetics

@@ -3,30 +3,6 @@ filter: haml
 ---
 .box.treatments.clearfix
   %h2 Treatments available
-  %ul
-    %li
-      %a{:href => ''} Permanent hair reduction
-    %li
-      %a{:href => ''} Photorejuvenation
-    %li
-      %a{:href => ''} Acne treatment
-    %li
-      %a{:href => ''} Rosacea treatment
-    %li
-      %a{:href => ''} Pigmented lesions
-
+  = render :partial => 'partials/ipl-treatments-list'
   %br/
-
-  %ul
-    %li
-      %a{:href => ''} Wrinkle relaxing injections
-    %li
-      %a{:href => ''} Dermal fillers
-    %li
-      %a{:href => ''} Sclerotherapy
-    %li
-      %a{:href => ''} Microdermabrasion
-    %li
-      %a{:href => ''} Diathermy
-    %li
-      %a{:href => ''} Semi-permanent cosmetics
+  = render :partial => 'partials/other-treatments-list'

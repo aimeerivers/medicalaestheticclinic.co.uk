@@ -30,36 +30,14 @@ filter:      haml
         %img{:src => '/images/lucy_pinder.jpg', :alt => '', :width => '223', :height => '223'}
 
   .column.span-12.last#sidebar
+
     .box.treatments.clearfix
       %h2 Treatments available
       .column.span-11.last
         .column.span-5-point-5
-          %ul
-            %li
-              %a{:href => ''} Permanent hair reduction
-            %li
-              %a{:href => ''} Photorejuvenation
-            %li
-              %a{:href => ''} Acne treatment
-            %li
-              %a{:href => ''} Rosacea treatment
-            %li
-              %a{:href => ''} Pigmented lesions
-
+          = render :partial => 'partials/ipl-treatments-list'
         .column.span-5-point-5.last
-          %ul
-            %li
-              %a{:href => ''} Wrinkle relaxing injections
-            %li
-              %a{:href => ''} Dermal fillers
-            %li
-              %a{:href => ''} Sclerotherapy
-            %li
-              %a{:href => ''} Microdermabrasion
-            %li
-              %a{:href => ''} Diathermy
-            %li
-              %a{:href => ''} Semi-permanent cosmetics
+          = render :partial => 'partials/other-treatments-list'
   
     .box.products.clearfix
       %h2 Products available

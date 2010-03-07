@@ -1,0 +1,14 @@
+---
+filter: haml
+---
+%ul
+  %li
+    %a{:href => '/treatments/ipl-permanent-hair-reduction'} Permanent hair reduction
+  %li
+    %a{:href => '/'} Photorejuvenation
+  %li
+    %a{:href => '/'} Acne treatment
+  %li
+    %a{:href => '/'} Rosacea treatment
+  %li
+    %a{:href => '/'} Pigmented lesions
