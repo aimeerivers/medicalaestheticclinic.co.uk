@@ -1,8 +1,11 @@
 ---
 filter: haml
 ---
+- link = "/treatments/#{key}"
+- link = '' unless key == 'ipl-permanent-hair-reduction'
+
 .treatment.span-7.append-1.clearfix
-  %a{:href => "/treatments/#{key}"}
+  %a{:href => link}
     %img{:src => "/images/treatments/#{key}/#{key}-63.jpg", :width => '63', :height => '63', :alt => name}
-  %a.title{:href => "/treatments/#{key}"}= name
+  %a.title{:href => link}= name
   .description= description

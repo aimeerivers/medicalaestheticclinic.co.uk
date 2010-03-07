@@ -1,0 +1,11 @@
+---
+extension: js
+layout: nil
+---
+
+$(document).ready(function() {
+  $('.faq dl dd').hide();
+  $('.faq dl dt').bind('click', function(e) {
+    $(this).next('dd').slideToggle();
+  })
+})
