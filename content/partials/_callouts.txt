@@ -4,11 +4,12 @@ filter: haml
 #callout-boxes.column.span-24
   .column.span-8
     .callout-box.clearfix.first-box
-      %img{:src => '/images/callouts/special_offer.png'}
+      %a{:href => '/treatments/ipl-permanent-hair-reduction'}
+        %img{:src => '/images/callouts/special_offer.png'}
       %p.title Special Offer
       %p
         20% off when you purchase a course of 3 IPL treatments in March.
-        %a{:href => '/'} more &gt;
+        %a{:href => '/treatments/ipl-permanent-hair-reduction'} more &gt;
 
   .column.span-8
     .callout-box.second-box

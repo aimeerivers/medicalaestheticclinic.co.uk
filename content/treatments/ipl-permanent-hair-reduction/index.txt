@@ -5,3 +5,31 @@ filter:     haml
 sidebars:   ['treatments', 'products']
 ---
 %h1 IPL Permanent Hair Reduction
+
+.box.clearfix.special-offer
+  %img{:src => '/images/treatments/ipl-permanent-hair-reduction/ipl-permanent-hair-reduction-123.jpg'}
+  %h2 March Special Offer
+  %p
+    Book a course of 3 treatments and enjoy a limited offer of 20% off. You can choose to have a single area treated or combine up to 3 different areas. Your course of 3 must be paid for in advance during March and your first appointment taken during March or April.
+
+%h2 Overview
+%img.float-left{:src => '/images/treatments/ipl-permanent-hair-reduction/ipl-permanent-hair-reduction-303.jpg'}
+
+%h3 How does the system work?
+%p
+  The energy from the light source is taken up by the pigments (melanin and haemoglobin) in the skin, hairs and blood vessels. Selective filtration makes the energy uptake specific for melanin (600 to 950 nanometres) or haemoglobin (530 to 950 nanometres); thus the system can be used for hair removal, vascular lesions and pigmented lesions.
+
+%p
+  Hair removal is accomplished by the generation of heat from light in the melanin, which is then transferred to the hair follicle (root).
+
+%p
+  Pulse times of this applied light have been chosen to destroy the hair follicle by heating for at least 1 millisecond (one thousandth of a second) to 70 degrees centigrade.
+
+%h3 Why is gel used?
+%p
+  It is necessary to apply a thin layer of gel to the skin prior to treatment to ensure an optimal optical transmission of light from the applicator to the skin.
+
+%h3 How is the treatment carried out?
+%p
+  The applicator (hand piece) is placed in contact with the skin surface and the light pulsed through it onto the skin. The applicator is then moved to the neighbouring area and the process is repeated. 
+
