@@ -19,10 +19,7 @@ sidebars:   ['ipl-permament-hair-reduction/faq', 'treatments', 'products']
 
 %h3 How does the system work?
 %p
-  The energy from the light source is taken up by the pigments (melanin and haemoglobin) in the skin, hairs and blood vessels. Selective filtration makes the energy uptake specific for melanin (600 to 950 nanometres) or haemoglobin (530 to 950 nanometres); thus the system can be used for hair removal, vascular lesions and pigmented lesions.
-
-%p
-  Hair removal is accomplished by the generation of heat from light in the melanin, which is then transferred to the hair follicle (root).
+  The energy from the light source is taken up by the pigments (melanin and haemoglobin) in the skin, hairs and blood vessels. Hair removal is accomplished by the generation of heat from light in the melanin, which is then transferred to the hair follicle (root). The system can be used for hair removal, vascular lesions and pigmented lesions.
 
 %p
   Pulse times of this applied light have been chosen to destroy the hair follicle by heating for at least 1 millisecond (one thousandth of a second) to 70 degrees centigrade.
