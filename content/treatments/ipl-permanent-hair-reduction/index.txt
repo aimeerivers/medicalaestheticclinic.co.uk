@@ -32,3 +32,29 @@ sidebars:   ['ipl-permament-hair-reduction/faq', 'treatments', 'products']
 %p
   The applicator (hand piece) is placed in contact with the skin surface and the light pulsed through it onto the skin. The applicator is then moved to the neighbouring area and the process is repeated. 
 
+%h2 Before/After Pictures
+
+.column.span-16.last.before-after
+  .column.span-4
+    %img{:src => '/images/treatments/ipl-permanent-hair-reduction/young-female-with-abundant-facial-hair.jpg', :width => 143, :height => 143, :alt => 'Young female with abundant facial hair'}
+  .column.span-4
+    %img{:src => '/images/treatments/ipl-permanent-hair-reduction/young-female-after-four-treatments.jpg', :width => 143, :height => 143, :alt => 'after four treatments'}
+  .column.span-8.last
+    %p Young female with abundant facial hair, before and after four treatments.
+
+.column.span-16.last.before-after
+  .column.span-4
+    %img{:src => '/images/treatments/ipl-permanent-hair-reduction/female-with-heavy-facial-hair-growth.jpg', :width => 143, :height => 143, :alt => 'Female with heavy facial hair growth'}
+  .column.span-4
+    %img{:src => '/images/treatments/ipl-permanent-hair-reduction/female-after-pulsar-treatments.jpg', :width => 143, :height => 143, :alt => 'after Pulsar treatments'}
+  .column.span-8.last
+    %p Female with heavy facial hair growth, before and after Pulsar treatments.
+
+.column.span-16.last.before-after
+  .column.span-4
+    %img{:src => '/images/treatments/ipl-permanent-hair-reduction/bikini-area-before.jpg', :width => 143, :height => 143, :alt => 'Bikini area before'}
+  .column.span-4
+    %img{:src => '/images/treatments/ipl-permanent-hair-reduction/bikini-area-after.jpg', :width => 143, :height => 143, :alt => 'Bikini area after'}
+  .column.span-8.last
+    %p Bikini area, before and after treatments.
+
