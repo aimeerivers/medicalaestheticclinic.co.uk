@@ -2,7 +2,7 @@
 title:      IPL Permanent Hair Reduction at The Medical Aesthetic Clinic in Winchester
 created_at: 2010-03-07 20:11:05.607063 +00:00
 filter:     haml
-sidebars:   ['ipl-permament-hair-reduction/faq', 'treatments', 'products']
+sidebars:   ['ipl-permament-hair-reduction/faq', 'ipl-permament-hair-reduction/prices', 'treatments', 'products']
 ---
 %h1 IPL Permanent Hair Reduction
 

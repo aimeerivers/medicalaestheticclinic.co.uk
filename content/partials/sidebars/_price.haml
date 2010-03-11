@@ -1,0 +1,6 @@
+---
+filter: haml
+---
+.price.clearfix
+  .treatment_name= price[0]
+  .treatment_price= %Q{&pound;#{sprintf "%.2f", price[1]}}

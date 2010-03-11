@@ -1,0 +1,11 @@
+---
+filter: haml
+---
+- prices = YAML::load_file(File.dirname(__FILE__) + '/../lib/prices/ipl-permanent-hair-reduction.yml')
+
+.box.prices.clearfix
+  %h2 Price guide (women)
+  = render :partial => 'partials/sidebars/prices', :locals => {:prices => prices[:women]}
+.box.prices.clearfix
+  %h2 Price guide (men)
+  = render :partial => 'partials/sidebars/prices', :locals => {:prices => prices[:men]}

@@ -1,0 +1,16 @@
+---
+filter: haml
+---
+- if prices.size < 10
+  - prices.each do |price|
+    = render :partial => 'partials/sidebars/price', :locals => {:price => price}
+
+- else
+  - prices[0..4].each do |price|
+    = render :partial => 'partials/sidebars/price', :locals => {:price => price}
+
+  .all_other_prices
+    - prices[5..-1].each do |price|
+      = render :partial => 'partials/sidebars/price', :locals => {:price => price}
+
+  .expand-collapse{:style => 'display:none;'} view all
