@@ -8,8 +8,11 @@ filter: haml
   .span-3
     %img{:src => '/images/awards/quality-care-commission.jpg', :alt => 'Quality Care Commision', :width => '105', :height => '33'}
     %img{:src => '/images/awards/healthcare-commission.jpg', :alt => 'Healthcare Commission', :width => '105', :height => '41'}
+
+  .span-4
+    %img{:src => '/images/awards/verified-by-consulting-room.jpg', :alt => 'Verified by Consulting Room', :width => 145, :height => 51}
     
-  .span-17.last.contact_details
+  .span-13.last.contact_details
     %p
       33 Southgate Street, Winchester, SO23 9EH
       %br/
