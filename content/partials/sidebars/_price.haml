@@ -3,4 +3,7 @@ filter: haml
 ---
 .price.clearfix
   .treatment_name= price[0]
-  .treatment_price= %Q{&pound;#{sprintf "%.2f", price[1]}}
+  .treatment_price
+    = %Q{&pound;#{sprintf "%.2f", price[1]}}
+    - if price[2]
+      = %Q{ - &pound;#{sprintf "%.2f", price[2]}}
