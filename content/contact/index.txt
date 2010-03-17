@@ -12,9 +12,9 @@ sidebars:   ['treatments', 'products']
 
   .column.span-8.last
     %p You can find us on Southgate Street, very near to the Hotel Du Vin and The Screen cinema.
-    %p We are open 10am - 5pm on weekdays except for Wednesdays when we close at 2pm.
+    %p We are open 10am &ndash; 5pm on weekdays except for Wednesdays when we close at 2pm.
     %p On Tuesdays we are open until 7pm for evening appointments.
-    %p We also open every other Saturday, 10am - 1pm. Please ask for further details. 
+    %p We also open every other Saturday, 10am &ndash; 1pm. Please ask for further details. 
 
 
 .column.span-16.last

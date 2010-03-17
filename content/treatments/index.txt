@@ -2,7 +2,7 @@
 title:      Treatments available at The Medical Aesthetic Clinic
 created_at: 2010-02-27 21:02:17.790396 +00:00
 filter:     haml
-sidebars:   ['special-offer', 'products']
+sidebars:   ['special-offer', 'gift-vouchers', 'products']
 ---
 %h1 Treatments Available
 %p All treatments are carried out by a fully trained and professionally qualified nurse.
