@@ -13,4 +13,4 @@ filter: haml
   %li
     %a{:href => '/'} Diathermy
   %li
-    %a{:href => '/'} Semi-permanent cosmetics
+    %a{:href => '/treatments/semi-permanent-cosmetics'} Semi-permanent cosmetics
