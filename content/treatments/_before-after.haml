@@ -1,0 +1,10 @@
+---
+filter: haml
+---
+.column.span-16.last.before-after
+  .column.span-4
+    %img{:src => "/images/treatments/#{key}/#{before_image}", :width => 143, :height => 143, :alt => before_text}
+  .column.span-4
+    %img{:src => "/images/treatments/#{key}/#{after_image}", :width => 143, :height => 143, :alt => after_text}
+  .column.span-8.last
+    %p= main_text

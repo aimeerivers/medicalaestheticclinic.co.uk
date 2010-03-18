@@ -22,19 +22,8 @@ sidebars:   ['photorejuvenation/prices', 'treatments', 'products']
   %li The Pulsar Applicator is then applied directly to the skin and the selected area is treated via a series of intense bursts of light. Each burst of light represents a 5 square centimetre treated area.
 
 %h2 Before/After Pictures
+- key = 'photorejuvenation'
 
-.column.span-16.last.before-after
-  .column.span-4
-    %img{:src => '/images/treatments/photorejuvenation/solar-lentigines-before.jpg', :width => 143, :height => 143, :alt => 'Female with solar lentigines'}
-  .column.span-4
-    %img{:src => '/images/treatments/photorejuvenation/solar-lentigines-after.jpg', :width => 143, :height => 143, :alt => 'Solar lentigines after one Pulsar treatment'}
-  .column.span-8.last
-    %p Female with solar lentigines, before and after one Pulsar treatment.
+= render :partial => 'treatments/before-after', :locals => {:key => key, :before_image => 'solar-lentigines-before.jpg', :before_text => 'Female with solar lentigines', :after_image => 'solar-lentigines-after.jpg', :after_text => 'Female with solar lentigines', :main_text => 'Female with solar lentigines, before and after one Pulsar treatment.'}
 
-.column.span-16.last.before-after
-  .column.span-4
-    %img{:src => '/images/treatments/photorejuvenation/sun-damaged-skin-before.jpg', :width => 143, :height => 143, :alt => 'Sun-damaged skin'}
-  .column.span-4
-    %img{:src => '/images/treatments/photorejuvenation/sun-damaged-skin-after.jpg', :width => 143, :height => 143, :alt => 'Sun-damaged skin after Pulsar treatment'}
-  .column.span-8.last
-    %p Sun-damaged skin restored with Pulsar Photorejuvenation.
+= render :partial => 'treatments/before-after', :locals => {:key => key, :before_image => 'sun-damaged-skin-before.jpg', :before_text => 'Sun-damaged skin', :after_image => 'sun-damaged-skin-after.jpg', :after_text => 'Sun-damaged skin after Pulsar treatment', :main_text => 'Sun-damaged skin restored with Pulsar Photorejuvenation.'}
