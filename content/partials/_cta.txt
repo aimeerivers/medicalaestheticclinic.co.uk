@@ -3,4 +3,4 @@ filter: haml
 ---
 #cta.column.span-24
   .cta
-    Call today to book your free initial consultation on 01962 840400
+    Call today to book your free consultation on 01962 840400

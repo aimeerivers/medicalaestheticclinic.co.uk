@@ -99,16 +99,26 @@ body
     a:hover
       color = !text_colour
 
-#cta
+.cta
+  background-color: #886aa9
+  +rounded_corners
+  color: white
+  text-align: center
+  padding: 2px 0
   margin-bottom: 13px
 
+  p
+    margin-bottom: 0
+  strong
+    font-size: 1.1em
+  .smallprint
+    font-size: 0.7em
+    color: #c4bad6
+    margin-bottom: 2px
+
+#cta
   .cta
-    background-color: #886aa9
-    +rounded_corners
-    color: white
-    font-size: 1.5em
-    text-align: center
-    padding: 2px 0
+    font-size: 1.7em
 
 #content
   h1, h2, h3, h4, h5, h6
@@ -143,6 +153,9 @@ body
     ul
       list-style-type: none
       margin: 0
+
+      li
+        margin-bottom: 1px
 
   .box.products
     background-color: #ffe3fc

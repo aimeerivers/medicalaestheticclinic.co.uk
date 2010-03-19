@@ -38,6 +38,13 @@ filter:      haml
           = render :partial => 'partials/ipl-treatments-list'
         .column.span-5-point-5.last
           = render :partial => 'partials/other-treatments-list'
+
+    .cta
+      %p
+        %strong
+          20% off your first treatment
+      %p.smallprint
+        (may not be combined with our other offers)
   
     .box.products.clearfix
       %h2 Products available
