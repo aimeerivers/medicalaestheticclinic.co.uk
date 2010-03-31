@@ -44,7 +44,7 @@ filter:      haml
         %strong
           20% off your first treatment
       %p.smallprint
-        (may not be combined with our other offers)
+        (discount may not be combined with our other offers)
   
     .box.products.clearfix
       %h2 Products available
