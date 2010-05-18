@@ -3,14 +3,14 @@ filter: haml
 ---
 %ul
   %li
-    %a{:href => '/'} Wrinkle relaxing injections
+    %a{:href => '/treatments/wrinkle-relaxing-injections'} Wrinkle relaxing injections
   %li
     %a{:href => '/treatments/dermal-fillers'} Dermal fillers
   %li
-    %a{:href => '/'} Sclerotherapy
+    %a{:href => '/treatments/sclerotherapy'} Sclerotherapy
   %li
-    %a{:href => '/'} Microdermabrasion
+    %a{:href => '/treatments/microdermabrasion'} Microdermabrasion
   %li
-    %a{:href => '/'} Diathermy
+    %a{:href => '/treatments/diathermy'} Diathermy
   %li
     %a{:href => '/treatments/semi-permanent-cosmetics'} Semi-permanent cosmetics

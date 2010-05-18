@@ -2,7 +2,6 @@
 filter: haml
 ---
 - link = "/treatments/#{key}"
-- link = '' unless ['ipl-permanent-hair-reduction', 'photorejuvenation', 'semi-permanent-cosmetics', 'dermal-fillers'].include?(key)
 
 .treatment.span-7.append-1.clearfix
   %a{:href => link}

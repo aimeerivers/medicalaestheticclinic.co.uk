@@ -51,27 +51,27 @@ filter:      haml
       .column.span-11.last
         .column.span-5-point-5
           .product.clearfix
-            %a{:href => ''}
+            %a{:href => '/products/jan-marini'}
               %img{:src => '/images/products/jan-marini/range-73.jpg', :alt => 'Jan Marini skin research', :width => '73', :height => '73'}
             %p
-              %a{:href => ''} Jan Marini skin research
+              %a{:href => '/products/jan-marini'} Jan Marini skin research
 
           .product.clearfix
-            %a{:href => ''}
+            %a{:href => '/products/sesha'}
               %img{:src => '/images/products/sesha/range-73.jpg', :alt => 'Sesha skin therapy', :width => '73', :height => '73'}
             %p
-              %a{:href => ''} Sesha skin therapy
+              %a{:href => '/products/sesha'} Sesha skin therapy
 
         .column.span-5-point-5.last
           .product.clearfix
-            %a{:href => ''}
+            %a{:href => '/products/jane-iredale'}
               %img{:src => '/images/products/jane-iredale/range-73.jpg', :alt => 'Jane Iredale mineral make up', :width => '73', :height => '73'}
             %p
-              %a{:href => ''} Jane Iredale mineral make up
+              %a{:href => '/products/jane-iredale'} Jane Iredale mineral make up
 
           .product.clearfix
-            %a{:href => ''}
+            %a{:href => '/products/is-clinical'}
               %img{:src => '/images/products/is-clinical/range-73.jpg', :alt => 'iS CLINICAL&reg;', :width => '73', :height => '73'}
             %p
-              %a{:href => ''} iS CLINICAL&reg;
+              %a{:href => '/products/is-clinical'} iS CLINICAL&reg;
 

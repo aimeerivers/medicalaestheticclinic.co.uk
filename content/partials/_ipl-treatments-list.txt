@@ -7,8 +7,8 @@ filter: haml
   %li
     %a{:href => '/treatments/photorejuvenation'} Photorejuvenation
   %li
-    %a{:href => '/'} Acne treatment
+    %a{:href => '/treatments/acne-treatment'} Acne treatment
   %li
-    %a{:href => '/'} Rosacea treatment
+    %a{:href => '/treatments/rosacea-treatment'} Rosacea treatment
   %li
-    %a{:href => '/'} Pigmented lesions
+    %a{:href => '/treatments/pigmented-lesions'} Pigmented lesions

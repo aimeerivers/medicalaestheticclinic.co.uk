@@ -13,11 +13,12 @@ filter: haml
 
   .column.span-8
     .callout-box.second-box
-      %img{:src => '/images/callouts/gift.png'}
+      %a{:href => '/gift-vouchers'}
+        %img{:src => '/images/callouts/gift.png'}
       %p.title Gift Vouchers
       %p
         We offer gift vouchers on all our treatments and products. Just ask at reception.
-        %a{:href => '/'} more &gt;
+        %a{:href => '/gift-vouchers'} more &gt;
 
   .column.span-8.last
     .callout-box.third-box
