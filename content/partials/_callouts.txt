@@ -5,7 +5,7 @@ filter: haml
   .column.span-8
     .callout-box.clearfix.first-box
       %a{:href => '/treatments/ipl-permanent-hair-reduction'}
-        %img{:src => '/images/callouts/special_offer.png'}
+        %img{:src => '/images/callouts/special_offer.png', :width => '88', :height => '88', :alt => ''}
       %p.title Special Offer
       %p
         20% off when you purchase a course of 3 IPL treatments in March.
@@ -14,7 +14,7 @@ filter: haml
   .column.span-8
     .callout-box.second-box
       %a{:href => '/gift-vouchers'}
-        %img{:src => '/images/callouts/gift.png'}
+        %img{:src => '/images/gift-vouchers/gift-voucher-88.jpg', :width => '88', :height => '88', :alt => ''}
       %p.title Gift Vouchers
       %p
         We offer gift vouchers on all our treatments and products. Just ask at reception.
@@ -23,7 +23,7 @@ filter: haml
   .column.span-8.last
     .callout-box.third-box
       %a{:href => '/contact'}
-        %img{:src => '/images/callouts/map.png'}
+        %img{:src => '/images/callouts/map.png', :width => '88', :height => '88', :alt => ''}
       %p.title How to find us
       %p
         Visit us at 33 Southgate Street in Winchester, near the Hotel Du Vin.
