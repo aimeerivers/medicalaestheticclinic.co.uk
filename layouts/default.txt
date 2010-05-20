@@ -25,3 +25,5 @@ filter:    haml
               = render :partial => "/partials/sidebars/#{sidebar}"
 
       = render :partial => '/partials/footer'
+
+    = render :partial => '/partials/google-analytics'

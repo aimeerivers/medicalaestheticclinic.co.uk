@@ -19,3 +19,5 @@ filter:    haml
         = @content
 
       = render :partial => '/partials/footer'
+
+    = render :partial => '/partials/google-analytics'
