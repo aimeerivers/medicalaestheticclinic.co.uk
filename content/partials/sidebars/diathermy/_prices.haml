@@ -1,0 +1,7 @@
+---
+filter: haml
+---
+- prices = YAML::load_file(File.dirname(__FILE__) + '/../lib/prices/diathermy.yml')
+.box.prices.clearfix
+  %h2 Price guide
+  = render :partial => 'partials/sidebars/prices', :locals => {:prices => prices}
