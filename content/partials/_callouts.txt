@@ -4,12 +4,12 @@ filter: haml
 #callout-boxes.column.span-24
   .column.span-8
     .callout-box.clearfix.first-box
-      %a{:href => '/treatments/dermal-fillers'}
-        %img{:src => '/images/treatments/dermal-fillers/dermal-fillers-88.jpg', :width => '88', :height => '88', :alt => ''}
+      %a{:href => '/treatments/ipl-permanent-hair-reduction'}
+        %img{:src => '/images/callouts/special_offer.png', :width => '88', :height => '88', :alt => ''}
       %p.title Special Offer
       %p
-        Course of 3 Restylane Vital treatments for &pound;500 (saving &pound;200)
-        %a{:href => '/treatments/dermal-fillers'} more &gt;
+        20% off when you purchase a course of 3 IPL treatments in June.
+        %a{:href => '/treatments/ipl-permanent-hair-reduction'} more &gt;
 
   .column.span-8
     .callout-box.second-box
