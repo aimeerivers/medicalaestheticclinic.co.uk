@@ -1,0 +1,30 @@
+---
+title: Colour swatches - The Medical Aesthetic Clinic
+filter: haml
+sidebars:   ['treatments']
+---
+
+%h1 Colour swatches
+
+The main colours used in this website ...
+
+- colours = %w(ffe3fc ffc7fa e9e3ef dbc8f2 d4c3e0 c2b1d3 886aa9 513184)
+
+%table
+  %tr
+    %th Colour
+    %th Hex value
+    %th Red, Green, Blue
+    %th H, S, V
+
+  - colours.each do |hex|
+
+    - r, g, b = hexToRGB(hex)
+    - h, s, v = rgbToHSV(r, g, b)
+
+    %tr
+      %td{:style => "background-color: ##{hex}; width: 150px; height: 40px;"}
+        &nbsp;
+      %td= "##{hex.upcase}"
+      %td= "#{r}, #{g}, #{b}"
+      %td= "#{h.round}, #{s.round}, #{v.round}"
