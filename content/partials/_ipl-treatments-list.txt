@@ -12,3 +12,5 @@ filter: haml
     %a{:href => '/treatments/rosacea-treatment'} Rosacea treatment
   %li
     %a{:href => '/treatments/pigmented-lesions'} Pigmented lesions
+  %li
+    %a{:href => '/treatments/dermaroller'} Dermaroller
