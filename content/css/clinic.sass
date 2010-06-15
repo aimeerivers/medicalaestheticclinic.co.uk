@@ -4,9 +4,9 @@ filter:    sass
 layout:    nil
 ---
 
-!text_colour = #513184
-!link_colour = #745198
-!top_nav_text_colour = #735a9c
+$text_colour: #513184
+$link_colour: #745198
+$top_nav_text_colour: #735a9c
 
 =rounded_corners
   -moz-border-radius: 5px
@@ -15,7 +15,7 @@ layout:    nil
 
 body
   font-size: 100%
-  color = !text_colour
+  color: $text_colour
 
 #header
   p.title
@@ -28,7 +28,7 @@ body
 
 #top_navigator
   ul
-    color = !top_nav_text_colour
+    color: $top_nav_text_colour
     text-align: center
     list-style-type: none
     font-size: 0.8em
@@ -41,11 +41,11 @@ body
         right: 0.1em
 
       a
-        color = !top_nav_text_colour
+        color: $top_nav_text_colour
         text-decoration: none
         &:hover
           text-decoration: underline
-          color = !text_colour
+          color: $text_colour
 
 .container.default #top_navigator
   margin-bottom: 1.5em
@@ -64,7 +64,7 @@ body
 
     p.title
       font-size: 1.2em
-      color = !text_colour
+      color: $text_colour
 
     img
       float: right
@@ -73,10 +73,10 @@ body
     a
       text-decoration: none
       margin-left: 0.5em
-      color = !link_colour
+      color: $link_colour
       &:hover
         text-decoration: underline
-        color = !text_colour
+        color: $text_colour
 
   .first-box
     background-color: #c2b1d3
@@ -97,7 +97,7 @@ body
 
   .first-box, .second-box, .third-box
     a:hover
-      color = !text_colour
+      color: $text_colour
 
 .cta
   background-color: #886aa9
@@ -122,7 +122,7 @@ body
 
 #content
   h1, h2, h3, h4, h5, h6
-    color = !text_colour
+    color: $text_colour
   h1
     font-size: 1.5em
   h2
@@ -131,9 +131,9 @@ body
     font-size: 1.1em
 
   a
-    color = !link_colour
+    color: $link_colour
     &:hover
-      color = !text_colour
+      color: $text_colour
 
   img, iframe
     border: 1px solid #c8bbd7
@@ -242,7 +242,7 @@ body
       font-weight: bold
       text-decoration: underline
       cursor: pointer
-      color= !link_colour
+      color: $link_colour
       text-align: center
 
   #sidebar .product
@@ -287,7 +287,7 @@ body
     a
       color: #C8BBD7
       &:hover
-        color = !text_colour
+        color: $text_colour
 
 .span-5-point-5
   width: 205px
