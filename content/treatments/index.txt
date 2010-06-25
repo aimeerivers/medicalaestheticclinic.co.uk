@@ -14,6 +14,7 @@ sidebars:   ['special-offer', 'gift-vouchers', 'products']
     = render :partial => 'treatment', :locals => {:key => 'acne-treatment', :name => 'Pulsar IPL Acne Treatment', :description => 'to treat bacterial acne'}
     = render :partial => 'treatment', :locals => {:key => 'rosacea-treatment', :name => 'Pulsar IPL for Rosacea', :description => 'to treat facial redness'}
     = render :partial => 'treatment', :locals => {:key => 'pigmented-lesions', :name => 'Pulsar IPL for Pigmented Lesions', :description => 'to treat pigmented or vascular lesions'}
+    = render :partial => 'treatment', :locals => {:key => 'dermaroller', :name => 'Genuine Dermaroller&trade; Therapy', :description => 'Natural skin regeneration and scar repair therapy'}
 
 
   .column.span-8.last
