@@ -8,7 +8,8 @@ filter: haml
         %img{:src => '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg', :width => '88', :height => '88', :alt => ''}
       %p.title July Special Offer
       %p
-        &pound;48 off Fire &amp; Ice Facial when you buy Jan Marini Bioclear Facial products.
+        Jan Marini Skin Care and Fire and Ice Facials
+        %br/
         %a{:href => '/products/jan-marini'} more &gt;
 
   .column.span-8
