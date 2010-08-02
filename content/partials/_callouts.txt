@@ -4,13 +4,13 @@ filter: haml
 #callout-boxes.column.span-24
   .column.span-8
     .callout-box.clearfix.first-box
-      %a{:href => '/products/jan-marini'}
-        %img{:src => '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg', :width => '88', :height => '88', :alt => ''}
-      %p.title July Special Offer
+      %a{:href => '/treatments/dermaroller'}
+        %img{:src => '/images/treatments/dermaroller/dermaroller-88.jpg', :width => '88', :height => '88', :alt => ''}
+      %p.title August Special Offer
       %p
-        Jan Marini Skin Care and Fire and Ice Facials
+        20% off a treatment with the Genuine Dermaroller.
         %br/
-        %a{:href => '/products/jan-marini'} more &gt;
+        %a{:href => '/treatments/dermaroller'} more &gt;
 
   .column.span-8
     .callout-box.second-box

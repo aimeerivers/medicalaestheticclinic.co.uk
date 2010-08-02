@@ -2,9 +2,9 @@
 filter: haml
 ---
 .box.special-offer.clearfix
-  %h2 July Special Offer
-  %a{:href => '/products/jan-marini'}
-    %img{:src => '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg', :width => '88', :height => '88', :alt => ''}
-  %p £48 off Fire & Ice Facial when you buy Jan Marini Bioclear Facial products. 
+  %h2 August Special Offer
+  %a{:href => '/treatments/dermaroller'}
+    %img{:src => '/images/treatments/dermaroller/dermaroller-88.jpg', :width => '88', :height => '88', :alt => ''}
+  %p 20% off a treatment with the Genuine Dermaroller.
   %p
-    %a{:href => '/products/jan-marini'} find out more &gt;
+    %a{:href => '/treatments/dermaroller'} find out more &gt;
