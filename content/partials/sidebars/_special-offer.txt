@@ -2,9 +2,9 @@
 filter: haml
 ---
 .box.special-offer.clearfix
-  %h2 September Special Offer
-  %a{:href => '/treatments/ipl-permanent-hair-reduction'}
-    %img{:src => '/images/callouts/special_offer.png', :width => '88', :height => '88', :alt => ''}
-  %p 20% off when you purchase a course of 3 IPL treatments in September.
+  %h2 October Special Offer
+  %a{:href => '/treatments/microdermabrasion/'}
+    %img{:src => '/images/treatments/microdermabrasion/microdermabrasion-88.jpg', :width => '88', :height => '88', :alt => ''}
+  %p 20% off when you purchase a course of 3 microdermabrasion treatments in October.
   %p
-    %a{:href => '/treatments/ipl-permanent-hair-reduction'} find out more &gt;
+    %a{:href => '/treatments/microdermabrasion'} find out more &gt;

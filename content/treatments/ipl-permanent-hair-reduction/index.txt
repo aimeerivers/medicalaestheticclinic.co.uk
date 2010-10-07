@@ -5,8 +5,6 @@ filter:     haml
 sidebars:   ['ipl-permament-hair-reduction/faq', 'ipl-permament-hair-reduction/prices', 'treatments']
 ---
 
-= render :partial => 'partials/special-offer'
-
 %h1 IPL Permanent Hair Reduction
 
 %h2 Overview
