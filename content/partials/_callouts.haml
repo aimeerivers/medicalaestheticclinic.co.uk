@@ -4,12 +4,12 @@ filter: haml
 #callout-boxes.column.span-24
   .column.span-8
     .callout-box.clearfix.first-box
-      %a{:href => '/treatments/microdermabrasion'}
-        %img{:src => '/images/treatments/microdermabrasion/microdermabrasion-88.jpg', :width => '88', :height => '88', :alt => ''}
-      %p.title Special Offer
+      %a{:href => SpecialOffer.link}
+        %img{:src => SpecialOffer.small_image, :width => '88', :height => '88', :alt => ''}
+      %p.title= SpecialOffer.title
       %p
-        20% off when you purchase a course of 3 microdermabrasion treatments in October.        
-        %a{:href => '/treatments/microdermabrasion'} more &gt;
+        = SpecialOffer.short_description
+        %a{:href => SpecialOffer.link} more &gt;
 
   .column.span-8
     .callout-box.second-box

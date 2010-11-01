@@ -2,11 +2,10 @@
 filter: haml
 ---
 .box.clearfix.special-offer
-  %h2 October Special Offer
+  %h2= SpecialOffer.title
   %p
-    Book a course of 3 treatments and enjoy a
-    %strong limited offer of 20% off.
-    Normal price
-    = format_price(65)
-    per treatment.
-    Your course of 3 must be paid for in advance during October and your first appointment taken during October or November.
+    During November treat yourself to a FREE Fire &amp; Ice Facial, valued at
+    = format_price(80) + ','
+    when you purchase ANY three of our
+    %a{:href => '/products/jan-marini'} Jan Marini
+    products.
