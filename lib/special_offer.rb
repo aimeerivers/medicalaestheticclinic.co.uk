@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "November Offer"
+    "December Offer"
   end
 
   def self.short_description
-    "FREE Fire &amp; Ice Facial when you purchase ANY three of our Jan Marini products"
+    "<strong>Festive Filler</strong><br />20% off dermal fillers in December."
   end
 
   def self.link
-    '/products/is-clinical#fire-and-ice'
+    '/treatments/dermal-fillers'
   end
 
   def self.small_image
-    '/images/products/is-clinical/fire-and-ice-88.jpg'
+    '/images/treatments/dermal-fillers/dermal-fillers-88.jpg'
   end
 
 end
