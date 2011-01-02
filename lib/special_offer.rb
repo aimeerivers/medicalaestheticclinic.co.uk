@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "December Offer"
+    "January Offer"
   end
 
   def self.short_description
-    "<strong>Festive Filler</strong><br />20% off dermal fillers in December."
+    "A personal consultation with our Jane Iredale Professional Make Up Artist"
   end
 
   def self.link
-    '/treatments/dermal-fillers'
+    '/products/jane-iredale'
   end
 
   def self.small_image
-    '/images/treatments/dermal-fillers/dermal-fillers-88.jpg'
+    '/images/products/jane-iredale/jane-iredale-brown-eyes-88.jpg'
   end
 
 end
