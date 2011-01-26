@@ -6,12 +6,9 @@ filter: haml
     %img{:src => '/images/awards/aesthetic-medicine-awards-finalist.jpg', :alt => 'Aesthetic Medicine Awards Finalist 2009', :width => '145', :height => '75'}
 
   .span-4
-    %img{:src => '/images/awards/quality-care-commission.jpg', :alt => 'Quality Care Commision', :width => 145, :height => 46, :style => 'margin-top: 15px;'}
-
-  .span-4
     %img{:src => '/images/awards/verified-by-consulting-room.jpg', :alt => 'Verified by Consulting Room', :width => 145, :height => 51, :style => 'margin-top: 6px;'}
 
-  .span-12.last.contact_details
+  .span-16.last.contact_details
     %p
       33 Southgate Street, Winchester, SO23 9EH
       %br/
