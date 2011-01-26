@@ -5,12 +5,8 @@ filter: haml
   %li
     %a{:href => '/treatments/ipl-permanent-hair-reduction'} Permanent hair reduction
   %li
-    %a{:href => '/treatments/photorejuvenation'} Photorejuvenation
-  %li
-    %a{:href => '/treatments/acne-treatment'} Acne treatment
-  %li
-    %a{:href => '/treatments/rosacea-treatment'} Rosacea treatment
-  %li
-    %a{:href => '/treatments/pigmented-lesions'} Pigmented lesions
-  %li
     %a{:href => '/treatments/dermaroller'} Dermaroller
+  %li
+    %a{:href => '/treatments/wrinkle-relaxing-injections'} Wrinkle relaxing injections
+  %li
+    %a{:href => '/treatments/dermal-fillers'} Dermal fillers

@@ -3,10 +3,6 @@ filter: haml
 ---
 %ul
   %li
-    %a{:href => '/treatments/wrinkle-relaxing-injections'} Wrinkle relaxing injections
-  %li
-    %a{:href => '/treatments/dermal-fillers'} Dermal fillers
-  %li
     %a{:href => '/treatments/sclerotherapy'} Sclerotherapy
   %li
     %a{:href => '/treatments/microdermabrasion'} Microdermabrasion
