@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "January Offer"
+    "February Offer"
   end
 
   def self.short_description
-    "A personal consultation with our Jane Iredale Professional Make Up Artist"
+    "20% off when you purchase a course of 3 microdermabrasion treatments in February."
   end
 
   def self.link
-    '/products/jane-iredale'
+    '/treatments/microdermabrasion'
   end
 
   def self.small_image
-    '/images/products/jane-iredale/jane-iredale-brown-eyes-88.jpg'
+    '/images/treatments/microdermabrasion/microdermabrasion-88.jpg'
   end
 
 end
