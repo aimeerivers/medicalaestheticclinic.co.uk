@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "February Offer"
+    "March Offer"
   end
 
   def self.short_description
-    "20% off when you purchase a course of 3 microdermabrasion treatments in February."
+    "20% off botox treatment.<br />"
   end
 
   def self.link
-    '/treatments/microdermabrasion'
+    '/treatments/wrinkle-relaxing-injections'
   end
 
   def self.small_image
-    '/images/treatments/microdermabrasion/microdermabrasion-88.jpg'
+    '/images/treatments/wrinkle-relaxing-injections/wrinkle-relaxing-injections-88.jpg'
   end
 
 end
