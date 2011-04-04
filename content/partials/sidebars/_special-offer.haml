@@ -1,3 +1,10 @@
 ---
 filter: haml
 ---
+.box.special-offer.clearfix
+  %h2= SpecialOffer.title
+  %a{:href => SpecialOffer.link}
+    %img{:src => SpecialOffer.small_image, :width => '88', :height => '88', :alt => ''}
+  %p= SpecialOffer.short_description
+  %p
+    %a{:href => SpecialOffer.link} find out more &gt;
