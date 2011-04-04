@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "March Offer"
+    "April Offer"
   end
 
   def self.short_description
-    "20% off botox treatment.<br />"
+    "20% off when you purchase a course of 3 Fire and Ice facial treatments in April"
   end
 
   def self.link
-    '/treatments/wrinkle-relaxing-injections'
+    '/products/is-clinical/#fire-and-ice'
   end
 
   def self.small_image
-    '/images/treatments/wrinkle-relaxing-injections/wrinkle-relaxing-injections-88.jpg'
+    '/images/products/is-clinical/fire-and-ice-88.jpg'
   end
 
 end
