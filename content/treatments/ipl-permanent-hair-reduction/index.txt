@@ -7,8 +7,6 @@ sidebars:   ['ipl-permament-hair-reduction/faq', 'ipl-permament-hair-reduction/p
 
 %h1 IPL Permanent Hair Reduction
 
-= render :partial => 'partials/special-offer'
-
 %h2 Overview
 %img.float-left{:src => '/images/treatments/ipl-permanent-hair-reduction/ipl-permanent-hair-reduction-303.jpg'}
 
