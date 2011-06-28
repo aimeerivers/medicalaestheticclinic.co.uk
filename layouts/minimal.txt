@@ -6,6 +6,7 @@ filter:    haml
 %html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
   %head
     %title= @page.title
+    %meta{'name' => 'google-site-verification', :content => 'X5SPxx2e-MOiAyKFON5uKD8Ah6qISlC5crj_C05wqdI'}
     = render :partial => '/partials/includes'
 
   %body
