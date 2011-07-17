@@ -3,12 +3,27 @@ filter: haml
 ---
 .column.span-24.first.last#footer
   .span-4
-    %img{:src => '/images/awards/aesthetic-medicine-awards-finalist.jpg', :alt => 'Aesthetic Medicine Awards Finalist 2009', :width => '145', :height => '75'}
+    %img{:src => '/images/awards/aesthetic-medicine-awards-finalist.jpg',
+    :alt => 'Aesthetic Medicine Awards Finalist 2009',
+    :title => 'Aesthetic Medicine Awards Finalist 2009',
+    :width => '145', :height => '75'}
 
   .span-4
-    %img{:src => '/images/awards/verified-by-consulting-room.jpg', :alt => 'Verified by Consulting Room', :width => 145, :height => 51, :style => 'margin-top: 6px;'}
+    %a{:href => 'http://www.cosmeticnurses.org/', :target => '_blank'}
+      %img{:src => '/images/awards/british-association-of-cosmetic-nurses.jpg',
+        :alt => 'British Association of Cosmetic Nurses',
+        :title => 'British Association of Cosmetic Nurses',
+        :width => '144', :height => '75'}
 
-  .span-16.last.contact_details
+  .span-4
+    %a{:href => 'http://www.consultingroom.com/', :target => '_blank'}
+      %img{:src => '/images/awards/verified-by-consulting-room.jpg',
+        :alt => 'Verified by Consulting Room',
+        :title => 'Verified by Consulting Room',
+        :width => 145, :height => 51,
+        :style => 'margin-top: 8px;'}
+
+  .span-12.last.contact_details
     %p
       33 Southgate Street, Winchester, SO23 9EH
       %br/
