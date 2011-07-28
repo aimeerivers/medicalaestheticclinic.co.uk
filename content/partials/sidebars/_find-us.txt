@@ -5,6 +5,6 @@ filter: haml
   %h2 How to find us
   %a{:href => '/contact'}
     %img{:src => '/images/callouts/map.png', :width => '88', :height => '88', :alt => ''}
-  %p Visit us at 33 Southgate Street in Winchester, near the Hotel Du Vin.
+  %p Visit us at 37/39 Southgate Street in Winchester, near the Hotel Du Vin.
   %p
     %a{:href => '/contact'} contact details &gt;
