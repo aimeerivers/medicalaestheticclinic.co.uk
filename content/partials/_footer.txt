@@ -25,7 +25,7 @@ filter: haml
 
   .span-12.last.contact_details
     %p
-      33 Southgate Street, Winchester, SO23 9EH
+      37/39 Southgate Street, Winchester, SO23 9EH
       %br/
       = render :partial => 'partials/email-address'
       %br/
