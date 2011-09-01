@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "June Offer"
+    "September Offer"
   end
 
   def self.short_description
-    "20% off when you purchase a course of 3 Fire and Ice facial treatments in June"
+    "20% off when you purchase a course of 3 IPL treatments in September."
   end
 
   def self.link
-    '/products/is-clinical/#fire-and-ice'
+    '/treatments/ipl-permanent-hair-reduction'
   end
 
   def self.small_image
-    '/images/products/is-clinical/fire-and-ice-88.jpg'
+    '/images/callouts/special_offer.png'
   end
 
 end
