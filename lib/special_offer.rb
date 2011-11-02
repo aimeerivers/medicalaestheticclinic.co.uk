@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "September Offer"
+    "October Offer"
   end
 
   def self.short_description
-    "20% off when you purchase a course of 3 IPL treatments in September."
+    "15% saving on Restylane treatment"
   end
 
   def self.link
-    '/treatments/ipl-permanent-hair-reduction'
+    '/treatments/dermal-fillers'
   end
 
   def self.small_image
-    '/images/callouts/special_offer.png'
+    '/images/treatments/dermal-fillers/dermal-fillers-88.jpg'
   end
 
 end
