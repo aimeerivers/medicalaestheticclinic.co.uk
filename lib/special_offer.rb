@@ -1,19 +1,19 @@
 class SpecialOffer
 
   def self.title
-    "October Offer"
+    "November Offer"
   end
 
   def self.short_description
-    "15% saving on Restylane treatment"
+    "20% off on any ONE Jan Marini skin care product"
   end
 
   def self.link
-    '/treatments/dermal-fillers'
+    '/products/jan-marini'
   end
 
   def self.small_image
-    '/images/treatments/dermal-fillers/dermal-fillers-88.jpg'
+    '/images/products/jan-marini/jan-marini-bioclear-cream-88.jpg'
   end
 
 end
