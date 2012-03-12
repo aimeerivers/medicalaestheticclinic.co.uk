@@ -2,16 +2,8 @@
 filter: haml
 ---
 #callout-boxes.column.span-24
-  .column.span-8
-    .callout-box.clearfix.first-box
-      %a{:href => SpecialOffer.link}
-        %img{:src => SpecialOffer.small_image, :width => '88', :height => '88', :alt => ''}
-      %p.title= SpecialOffer.title
-      %p
-        = SpecialOffer.short_description
-        %a{:href => SpecialOffer.link} more &gt;
 
-  .column.span-8
+  .column.span-12
     .callout-box.second-box
       %a{:href => '/gift-vouchers'}
         %img{:src => '/images/gift-vouchers/gift-voucher-88.jpg', :width => '88', :height => '88', :alt => ''}
@@ -20,7 +12,7 @@ filter: haml
         We offer gift vouchers on all our treatments and products. Just ask at reception.
         %a{:href => '/gift-vouchers'} more &gt;
 
-  .column.span-8.last
+  .column.span-12.last
     .callout-box.third-box
       %a{:href => '/contact'}
         %img{:src => '/images/callouts/map.png', :width => '88', :height => '88', :alt => ''}
